@@ -749,12 +749,12 @@ $Comp
 L Switch:SW_Push SW1
 U 1 1 5E55F78C
 P 1300 750
-F 0 "SW1" H 1300 565 50  0000 C CNN
-F 1 "SW_Push" H 1300 656 50  0000 C CNN
+F 0 "SW1" H 1300 1035 50  0000 C CNN
+F 1 "SW_Push" H 1300 944 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1300 950 50  0001 C CNN
 F 3 "~" H 1300 950 50  0001 C CNN
 	1    1300 750 
-	1    0    0    1   
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	1600 1050 1600 1200

@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 5)
+    (drawings 6)
     (tracks 177)
     (zones 0)
     (modules 48)
@@ -2444,6 +2444,9 @@
     )
   )
 
+  (gr_text Reset (at 80.01 38.1) (layer F.SilkS)
+    (effects (font (size 2 2) (thickness 0.15)))
+  )
   (gr_text "NumpadA v0.1\nby Dmitry Kudriavtsev" (at 63.5 27.94) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.15)) (justify left))
   )

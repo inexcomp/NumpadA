@@ -203,32 +203,6 @@ $EndComp
 Wire Bus Line
 	10650 1500 10650 2350
 $Comp
-L Diode:1N4148 D2
-U 1 1 5E27FDC0
-P 1650 4300
-F 0 "D2" H 1650 4516 50  0000 C CNN
-F 1 "1N4148" H 1650 4425 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1650 4125 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1650 4300 50  0001 C CNN
-	1    1650 4300
-	1    0    0    -1  
-$EndComp
-Connection ~ 1500 4300
-$Comp
-L Diode:1N4148 D3
-U 1 1 5E28089E
-P 1650 5000
-F 0 "D3" H 1650 5216 50  0000 C CNN
-F 1 "1N4148" H 1650 5125 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1650 4825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1650 5000 50  0001 C CNN
-	1    1650 5000
-	1    0    0    -1  
-$EndComp
-Connection ~ 1500 5000
-Wire Wire Line
-	1500 5000 1500 5700
-$Comp
 L Diode:1N4148 D4
 U 1 1 5E280E58
 P 1650 5700
@@ -254,17 +228,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1650 
 	1    0    0    -1  
 $EndComp
 Connection ~ 1500 6350
-$Comp
-L Diode:1N4148 D6
-U 1 1 5E281BBE
-P 1650 7050
-F 0 "D6" H 1650 7266 50  0000 C CNN
-F 1 "1N4148" H 1650 7175 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1650 6875 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1650 7050 50  0001 C CNN
-	1    1650 7050
-	1    0    0    -1  
-$EndComp
 $Comp
 L Diode:1N4148 D8
 U 1 1 5E283A19
@@ -490,8 +453,6 @@ Wire Wire Line
 Wire Wire Line
 	2300 4300 2300 5000
 Wire Wire Line
-	1500 4300 1500 5000
-Wire Wire Line
 	2200 3750 3000 3750
 Connection ~ 2200 3750
 Wire Wire Line
@@ -549,8 +510,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2450 
 	1    2450 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1500 3650 1500 4300
 $Comp
 L Diode:1N4148 D1
 U 1 1 5E2776E9
@@ -606,11 +565,6 @@ F 3 "~" H 2000 3850 50  0001 C CNN
 	1    2000 3650
 	1    0    0    -1  
 $EndComp
-Connection ~ 2300 3650
-Connection ~ 3050 3650
-Wire Wire Line
-	3850 3650 3850 3200
-Connection ~ 3850 3650
 NoConn ~ 1500 1200
 NoConn ~ 1900 1200
 NoConn ~ 2000 1200
@@ -644,107 +598,8 @@ F 3 "~" H 1800 1200 50  0001 C CNN
 $EndComp
 NoConn ~ 2100 1200
 NoConn ~ 2200 1200
-$Comp
-L ProMicro:ProMicro U1
-U 1 1 5E22A47A
-P 2250 1900
-F 0 "U1" H 2250 2937 60  0000 C CNN
-F 1 "ProMicro" H 2250 2831 60  0000 C CNN
-F 2 "ProMicro:ProMicro" H 2350 850 60  0001 C CNN
-F 3 "" H 2350 850 60  0000 C CNN
-	1    2250 1900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1500 3650 1500 3050
-Wire Wire Line
-	1500 3050 3850 3050
-Wire Wire Line
-	3850 1200 2600 1200
-Connection ~ 1500 3650
-Wire Wire Line
-	2300 3100 3900 3100
-Wire Wire Line
-	3900 1150 2500 1150
-Wire Wire Line
-	2500 1150 2500 1200
-Wire Wire Line
-	2300 3100 2300 3650
-Wire Wire Line
-	3050 3150 3950 3150
-Wire Wire Line
-	2400 1100 2400 1200
-Wire Wire Line
-	3050 3150 3050 3650
-Wire Wire Line
-	2400 1100 3950 1100
-Wire Wire Line
-	3850 3200 4000 3200
-Wire Wire Line
-	4000 1050 2300 1050
-Wire Wire Line
-	2300 1050 2300 1200
-Wire Wire Line
-	1450 3750 1450 3000
-Wire Wire Line
-	1450 3000 2600 3000
-Wire Wire Line
-	2200 4400 1400 4400
-Wire Wire Line
-	1400 4400 1400 2950
-Wire Wire Line
-	1400 2950 2500 2950
-Connection ~ 2200 4400
-Wire Wire Line
-	2200 5100 1350 5100
-Wire Wire Line
-	1350 5100 1350 2900
-Wire Wire Line
-	1350 2900 2400 2900
-Connection ~ 2200 5100
-Wire Wire Line
-	2200 5800 1300 5800
-Wire Wire Line
-	1300 5800 1300 2850
-Wire Wire Line
-	1300 2850 2300 2850
-Connection ~ 2200 5800
-Wire Wire Line
-	1250 2800 2200 2800
-Wire Wire Line
-	4000 1050 4000 3200
-Wire Wire Line
-	3950 1100 3950 3150
-Wire Wire Line
-	3900 1150 3900 3100
-Wire Wire Line
-	3850 1200 3850 3050
-Wire Wire Line
-	2200 2600 2200 2800
-Wire Wire Line
-	2300 2600 2300 2850
-Wire Wire Line
-	2400 2600 2400 2900
-Wire Wire Line
-	2500 2600 2500 2950
-Wire Wire Line
-	2600 2600 2600 3000
-Wire Wire Line
-	2100 2600 2100 2750
-Wire Wire Line
-	2100 2750 1200 2750
-Wire Wire Line
-	1200 2750 1200 7150
-Wire Wire Line
-	1200 7150 2200 7150
-Connection ~ 2200 7150
 Wire Wire Line
 	1500 6350 1500 7050
-Wire Wire Line
-	1250 6450 2200 6450
-Wire Wire Line
-	1250 2800 1250 6450
-Connection ~ 2200 6450
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5E55F78C
@@ -769,4 +624,123 @@ Wire Wire Line
 	1500 750  1700 750 
 Wire Wire Line
 	1700 750  1700 1200
+Wire Wire Line
+	3850 3650 3850 3200
+Connection ~ 3850 3650
+Wire Wire Line
+	3050 3650 3050 3200
+Connection ~ 3050 3650
+Wire Wire Line
+	2300 3650 2300 3200
+Connection ~ 2300 3650
+Wire Wire Line
+	1500 3650 1500 3200
+Text GLabel 3850 3200 0    50   Input ~ 0
+col4
+Text GLabel 3050 3200 0    50   Input ~ 0
+col3
+Text GLabel 2300 3200 0    50   Input ~ 0
+col2
+Text GLabel 1500 3200 0    50   Input ~ 0
+col1
+Text GLabel 2300 1200 1    50   Input ~ 0
+col4
+Text GLabel 2400 1200 1    50   Input ~ 0
+col3
+Text GLabel 2500 1200 1    50   Input ~ 0
+col2
+Text GLabel 2600 1200 1    50   Input ~ 0
+col1
+Text GLabel 1450 3750 0    50   Input ~ 0
+row1
+Text GLabel 1450 5100 0    50   Input ~ 0
+row3
+Text GLabel 1450 5800 0    50   Input ~ 0
+row4
+Text GLabel 1450 6450 0    50   Input ~ 0
+row5
+Text GLabel 1450 7150 0    50   Input ~ 0
+row6
+Text GLabel 2500 2600 3    50   Input ~ 0
+row2
+Text GLabel 2400 2600 3    50   Input ~ 0
+row3
+Text GLabel 2300 2600 3    50   Input ~ 0
+row4
+Text GLabel 2200 2600 3    50   Input ~ 0
+row5
+Text GLabel 2100 2600 3    50   Input ~ 0
+row6
+Text GLabel 2600 2600 3    50   Input ~ 0
+row1
+$Comp
+L ProMicro:ProMicro U1
+U 1 1 5E22A47A
+P 2250 1900
+F 0 "U1" H 2250 2937 60  0000 C CNN
+F 1 "ProMicro" H 2250 2831 60  0000 C CNN
+F 2 "ProMicro:ProMicro" H 2350 850 60  0001 C CNN
+F 3 "" H 2350 850 60  0000 C CNN
+	1    2250 1900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1500 3650
+Text GLabel 1450 4400 0    50   Input ~ 0
+row2
+Wire Wire Line
+	1500 3650 1500 4300
+Connection ~ 1500 4300
+$Comp
+L Diode:1N4148 D2
+U 1 1 5E27FDC0
+P 1650 4300
+F 0 "D2" H 1650 4516 50  0000 C CNN
+F 1 "1N4148" H 1650 4425 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1650 4125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1650 4300 50  0001 C CNN
+	1    1650 4300
+	1    0    0    -1  
+$EndComp
+Connection ~ 1500 5000
+Wire Wire Line
+	1500 4300 1500 5000
+Wire Wire Line
+	1500 5000 1500 5700
+$Comp
+L Diode:1N4148 D3
+U 1 1 5E28089E
+P 1650 5000
+F 0 "D3" H 1650 5216 50  0000 C CNN
+F 1 "1N4148" H 1650 5125 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1650 4825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1650 5000 50  0001 C CNN
+	1    1650 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D6
+U 1 1 5E281BBE
+P 1650 7050
+F 0 "D6" H 1650 7266 50  0000 C CNN
+F 1 "1N4148" H 1650 7175 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1650 6875 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1650 7050 50  0001 C CNN
+	1    1650 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4400 1450 4400
+Connection ~ 2200 4400
+Wire Wire Line
+	2200 5100 1450 5100
+Connection ~ 2200 5100
+Wire Wire Line
+	2200 5800 1450 5800
+Connection ~ 2200 5800
+Wire Wire Line
+	2200 6450 1450 6450
+Connection ~ 2200 6450
+Wire Wire Line
+	2200 7150 1450 7150
+Connection ~ 2200 7150
 $EndSCHEMATC
