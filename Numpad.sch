@@ -1437,19 +1437,50 @@ Text GLabel 9450 3650 3    50   Input ~ 0
 DA+
 Text GLabel 9450 3950 3    50   Input ~ 0
 DA-
-Text GLabel 9250 3650 0    50   Input ~ 0
+Text GLabel 8950 3650 0    50   Input ~ 0
 DB+
-Text GLabel 9250 3950 0    50   Input ~ 0
+Text GLabel 8950 3950 0    50   Input ~ 0
 DB-
 Text GLabel 7750 4300 2    50   Input ~ 0
 DB-
 Text GLabel 7750 4400 2    50   Input ~ 0
 DB+
 Wire Wire Line
-	9250 3650 9550 3650
-Wire Wire Line
-	9250 3950 9550 3950
-Wire Wire Line
 	9350 3250 8850 3250
 Connection ~ 9350 3250
+Wire Wire Line
+	8950 3650 9300 3650
+Wire Wire Line
+	8950 3950 9550 3950
+$Comp
+L Device:R_Small_US R4
+U 1 1 5E36917C
+P 9100 3800
+F 0 "R4" V 9305 3800 50  0000 C CNN
+F 1 "1.5K" V 9214 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9100 3800 50  0001 C CNN
+F 3 "~" H 9100 3800 50  0001 C CNN
+	1    9100 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 3800 9300 3800
+Wire Wire Line
+	9300 3800 9300 3650
+Connection ~ 9300 3650
+Wire Wire Line
+	9300 3650 9550 3650
+Wire Wire Line
+	9000 3800 8950 3800
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 5E37570D
+P 8950 3800
+F 0 "#PWR0101" H 8950 3650 50  0001 C CNN
+F 1 "+3.3V" V 8965 3928 50  0000 L CNN
+F 2 "" H 8950 3800 50  0001 C CNN
+F 3 "" H 8950 3800 50  0001 C CNN
+	1    8950 3800
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
