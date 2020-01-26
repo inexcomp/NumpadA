@@ -1059,21 +1059,6 @@ F 5 "Manufacturer Recommendations" H 9850 3850 50  0001 L BNN "Field5"
 	1    9850 3850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Polyfuse_Small F1
-U 1 1 5E41D6AD
-P 9200 3250
-F 0 "F1" V 8995 3250 50  0000 C CNN
-F 1 "500ma" V 9086 3250 50  0000 C CNN
-F 2 "Fuse:Fuse_0805_2012Metric" H 9250 3050 50  0001 L CNN
-F 3 "~" H 9200 3250 50  0001 C CNN
-	1    9200 3250
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	9300 3250 9350 3250
-Wire Wire Line
-	9100 3250 8850 3250
 Wire Wire Line
 	8850 3250 8850 3100
 $Comp
@@ -1396,21 +1381,8 @@ F 3 "~" H 9350 3250 50  0001 C CNN
 	1    9350 3250
 	-1   0    0    1   
 $EndComp
-Connection ~ 9350 3250
 Wire Wire Line
 	9350 3250 9550 3250
-$Comp
-L power:PWR_FLAG #FLG0103
-U 1 1 5E5E5740
-P 8850 3250
-F 0 "#FLG0103" H 8850 3325 50  0001 C CNN
-F 1 "PWR_FLAG" V 8850 3377 50  0000 L CNN
-F 2 "" H 8850 3250 50  0001 C CNN
-F 3 "~" H 8850 3250 50  0001 C CNN
-	1    8850 3250
-	0    -1   -1   0   
-$EndComp
-Connection ~ 8850 3250
 Wire Wire Line
 	6350 2450 6000 2450
 Wire Wire Line
@@ -1447,9 +1419,9 @@ VDD3
 Text GLabel 2650 1400 3    50   Input ~ 0
 VDDA
 Text GLabel 5300 1450 2    50   Input ~ 0
-DA-
-Text GLabel 5300 1650 2    50   Input ~ 0
 DA+
+Text GLabel 5300 1650 2    50   Input ~ 0
+DA-
 $Comp
 L Power_Protection:SRV05-4 U1
 U 1 1 5E4C0D35
@@ -1477,4 +1449,7 @@ Wire Wire Line
 	9250 3650 9550 3650
 Wire Wire Line
 	9250 3950 9550 3950
+Wire Wire Line
+	9350 3250 8850 3250
+Connection ~ 9350 3250
 $EndSCHEMATC

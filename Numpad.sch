@@ -1232,22 +1232,22 @@ Text GLabel 6350 4700 0    50   Input ~ 0
 col1
 Text GLabel 6350 4300 0    50   Input ~ 0
 row1
-Text GLabel 6350 4100 0    50   Input ~ 0
+Text GLabel 6350 3400 0    50   Input ~ 0
 row3
-Text GLabel 6350 4000 0    50   Input ~ 0
+Text GLabel 6350 3300 0    50   Input ~ 0
 row4
-Text GLabel 6350 3900 0    50   Input ~ 0
+Text GLabel 6350 3200 0    50   Input ~ 0
 row5
-Text GLabel 6350 3800 0    50   Input ~ 0
+Text GLabel 7650 3900 2    50   Input ~ 0
 row6
 Text GLabel 6350 4200 0    50   Input ~ 0
 row2
 NoConn ~ 6350 3700
 NoConn ~ 6350 3600
 NoConn ~ 6350 3500
-NoConn ~ 6350 3400
-NoConn ~ 6350 3300
-NoConn ~ 6350 3200
+NoConn ~ 6350 4000
+NoConn ~ 6350 3900
+NoConn ~ 6350 3800
 NoConn ~ 7650 3200
 NoConn ~ 7650 3300
 NoConn ~ 7650 3400
@@ -1255,7 +1255,7 @@ NoConn ~ 7650 3500
 NoConn ~ 7650 3600
 NoConn ~ 7650 3700
 NoConn ~ 7650 3800
-NoConn ~ 7650 3900
+NoConn ~ 6350 4100
 NoConn ~ 7650 4000
 NoConn ~ 7650 4100
 NoConn ~ 7650 4200
