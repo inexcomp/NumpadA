@@ -769,26 +769,6 @@ F 3 "" H 7150 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 7150 4900
-Text Label 6850 1900 1    50   ~ 0
-VBAT
-Text Label 6950 1900 1    50   ~ 0
-VDD1
-Text Label 7050 1900 1    50   ~ 0
-VDD2
-Text Label 7150 1900 1    50   ~ 0
-VDD3
-Text Label 7250 1900 1    50   ~ 0
-VDDA
-Text Label 1050 1400 3    50   ~ 0
-VBAT
-Text Label 1450 1400 3    50   ~ 0
-VDD1
-Text Label 1850 1400 3    50   ~ 0
-VDD2
-Text Label 2250 1400 3    50   ~ 0
-VDD3
-Text Label 2650 1400 3    50   ~ 0
-VDDA
 $Comp
 L Device:C_Small C1
 U 1 1 5E381A63
@@ -1044,7 +1024,7 @@ F 1 "SWD" H 8172 4533 50  0000 R CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Horizontal" H 8200 4600 50  0001 C CNN
 F 3 "~" H 8200 4600 50  0001 C CNN
 	1    8200 4600
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	8000 4500 7650 4500
@@ -1079,21 +1059,6 @@ F 5 "Manufacturer Recommendations" H 9850 3850 50  0001 L BNN "Field5"
 	1    9850 3850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Polyfuse_Small F1
-U 1 1 5E41D6AD
-P 9200 3250
-F 0 "F1" V 8995 3250 50  0000 C CNN
-F 1 "500ma" V 9086 3250 50  0000 C CNN
-F 2 "Fuse:Fuse_0805_2012Metric" H 9250 3050 50  0001 L CNN
-F 3 "~" H 9200 3250 50  0001 C CNN
-	1    9200 3250
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	9300 3250 9350 3250
-Wire Wire Line
-	9100 3250 8850 3250
 Wire Wire Line
 	8850 3250 8850 3100
 $Comp
@@ -1123,47 +1088,25 @@ F 3 "" H 9550 4450 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R_Small_US R5
-U 1 1 5E43E41A
-P 9250 3950
-F 0 "R5" V 9045 3950 50  0000 C CNN
-F 1 "5" V 9136 3950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9250 3950 50  0001 C CNN
-F 3 "~" H 9250 3950 50  0001 C CNN
-	1    9250 3950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R4
-U 1 1 5E43FC67
-P 9250 3650
-F 0 "R4" V 9045 3650 50  0000 C CNN
-F 1 "5" V 9136 3650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9250 3650 50  0001 C CNN
-F 3 "~" H 9250 3650 50  0001 C CNN
-	1    9250 3650
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R_Small_US R2
 U 1 1 5E4574F8
-P 8350 2250
-F 0 "R2" V 8145 2250 50  0000 C CNN
-F 1 "5.1K" V 8236 2250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8350 2250 50  0001 C CNN
-F 3 "~" H 8350 2250 50  0001 C CNN
-	1    8350 2250
+P 8450 3600
+F 0 "R2" V 8245 3600 50  0000 C CNN
+F 1 "5.1K" V 8336 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8450 3600 50  0001 C CNN
+F 3 "~" H 8450 3600 50  0001 C CNN
+	1    8450 3600
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR018
 U 1 1 5E484A5F
-P 8250 2400
-F 0 "#PWR018" H 8250 2150 50  0001 C CNN
-F 1 "GND" V 8255 2272 50  0000 R CNN
-F 2 "" H 8250 2400 50  0001 C CNN
-F 3 "" H 8250 2400 50  0001 C CNN
-	1    8250 2400
+P 8350 3750
+F 0 "#PWR018" H 8350 3500 50  0001 C CNN
+F 1 "GND" V 8355 3622 50  0000 R CNN
+F 2 "" H 8350 3750 50  0001 C CNN
+F 3 "" H 8350 3750 50  0001 C CNN
+	1    8350 3750
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1255,17 +1198,6 @@ F 3 "" H 8600 1450 50  0001 C CNN
 	1    8600 1450
 	1    0    0    -1  
 $EndComp
-$Comp
-L Power_Protection:SRV05-4 U1
-U 1 1 5E4C0D35
-P 4800 1550
-F 0 "U1" H 4800 2231 50  0000 C CNN
-F 1 "SRV05-4" H 4800 2140 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5500 1100 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" H 4800 1550 50  0001 C CNN
-	1    4800 1550
-	1    0    0    -1  
-$EndComp
 NoConn ~ 4300 1450
 NoConn ~ 4300 1650
 $Comp
@@ -1279,10 +1211,6 @@ F 3 "" H 4800 1050 50  0001 C CNN
 	1    4800 1050
 	0    1    1    0   
 $EndComp
-Text Label 5300 1450 0    50   ~ 0
-DA-
-Text Label 5300 1650 0    50   ~ 0
-DA+
 $Comp
 L power:GND #PWR014
 U 1 1 5E4D2064
@@ -1294,10 +1222,6 @@ F 3 "" H 4800 2050 50  0001 C CNN
 	1    4800 2050
 	1    0    0    -1  
 $EndComp
-Text Label 9450 3950 3    50   ~ 0
-DA-
-Text Label 9450 3650 3    50   ~ 0
-DA+
 Text GLabel 6350 4400 0    50   Input ~ 0
 col4
 Text GLabel 6350 4500 0    50   Input ~ 0
@@ -1343,12 +1267,12 @@ Connection ~ 9550 4450
 $Comp
 L Device:R_Small_US R3
 U 1 1 5E458E16
-P 8350 2550
-F 0 "R3" V 8555 2550 50  0000 C CNN
-F 1 "5.1K" V 8464 2550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8350 2550 50  0001 C CNN
-F 3 "~" H 8350 2550 50  0001 C CNN
-	1    8350 2550
+P 8450 3900
+F 0 "R3" V 8655 3900 50  0000 C CNN
+F 1 "5.1K" V 8564 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8450 3900 50  0001 C CNN
+F 3 "~" H 8450 3900 50  0001 C CNN
+	1    8450 3900
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1416,36 +1340,20 @@ Connection ~ 10200 1250
 Wire Wire Line
 	10200 850  10200 1050
 Wire Wire Line
-	8250 2250 8250 2400
+	8350 3600 8350 3750
 Wire Wire Line
-	8250 2400 8250 2550
-Connection ~ 8250 2400
-Text Label 8450 2250 0    50   ~ 0
+	8350 3750 8350 3900
+Connection ~ 8350 3750
+Text Label 8550 3600 0    50   ~ 0
 CC1
-Text Label 8450 2550 0    50   ~ 0
+Text Label 8550 3900 0    50   ~ 0
 CC2
 Text Label 9550 3450 2    50   ~ 0
 CC1
 Text Label 9550 3550 2    50   ~ 0
 CC2
-Wire Wire Line
-	9350 3650 9550 3650
 Connection ~ 9550 3650
-Wire Wire Line
-	9550 3950 9350 3950
 Connection ~ 9550 3950
-Wire Wire Line
-	9150 3650 9050 3650
-Wire Wire Line
-	9150 3950 9050 3950
-Text Label 9050 3650 2    50   ~ 0
-DB+
-Text Label 9050 3950 2    50   ~ 0
-DB-
-Text Label 7750 4300 0    50   ~ 0
-DB-
-Text Label 7750 4400 0    50   ~ 0
-DB+
 Wire Wire Line
 	7750 4300 7650 4300
 Wire Wire Line
@@ -1473,21 +1381,8 @@ F 3 "~" H 9350 3250 50  0001 C CNN
 	1    9350 3250
 	-1   0    0    1   
 $EndComp
-Connection ~ 9350 3250
 Wire Wire Line
 	9350 3250 9550 3250
-$Comp
-L power:PWR_FLAG #FLG0103
-U 1 1 5E5E5740
-P 8850 3250
-F 0 "#FLG0103" H 8850 3325 50  0001 C CNN
-F 1 "PWR_FLAG" V 8850 3377 50  0000 L CNN
-F 2 "" H 8850 3250 50  0001 C CNN
-F 3 "~" H 8850 3250 50  0001 C CNN
-	1    8850 3250
-	0    -1   -1   0   
-$EndComp
-Connection ~ 8850 3250
 Wire Wire Line
 	6350 2450 6000 2450
 Wire Wire Line
@@ -1503,4 +1398,58 @@ F 3 "~" H 6000 2550 50  0001 C CNN
 	1    6000 2550
 	0    -1   -1   0   
 $EndComp
+Text GLabel 6850 1900 1    50   Input ~ 0
+VBAT
+Text GLabel 6950 1900 1    50   Input ~ 0
+VDD1
+Text GLabel 7050 1900 1    50   Input ~ 0
+VDD2
+Text GLabel 7150 1900 1    50   Input ~ 0
+VDD3
+Text GLabel 7250 1900 1    50   Input ~ 0
+VDDA
+Text GLabel 1050 1400 3    50   Input ~ 0
+VBAT
+Text GLabel 1450 1400 3    50   Input ~ 0
+VDD1
+Text GLabel 1850 1400 3    50   Input ~ 0
+VDD2
+Text GLabel 2250 1400 3    50   Input ~ 0
+VDD3
+Text GLabel 2650 1400 3    50   Input ~ 0
+VDDA
+Text GLabel 5300 1450 2    50   Input ~ 0
+DA+
+Text GLabel 5300 1650 2    50   Input ~ 0
+DA-
+$Comp
+L Power_Protection:SRV05-4 U1
+U 1 1 5E4C0D35
+P 4800 1550
+F 0 "U1" H 4800 2231 50  0000 C CNN
+F 1 "SRV05-4" H 4800 2140 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5500 1100 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" H 4800 1550 50  0001 C CNN
+	1    4800 1550
+	1    0    0    -1  
+$EndComp
+Text GLabel 9450 3650 3    50   Input ~ 0
+DA+
+Text GLabel 9450 3950 3    50   Input ~ 0
+DA-
+Text GLabel 9250 3650 0    50   Input ~ 0
+DB+
+Text GLabel 9250 3950 0    50   Input ~ 0
+DB-
+Text GLabel 7750 4300 2    50   Input ~ 0
+DB-
+Text GLabel 7750 4400 2    50   Input ~ 0
+DB+
+Wire Wire Line
+	9250 3650 9550 3650
+Wire Wire Line
+	9250 3950 9550 3950
+Wire Wire Line
+	9350 3250 8850 3250
+Connection ~ 9350 3250
 $EndSCHEMATC
