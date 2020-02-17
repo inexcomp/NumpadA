@@ -14,454 +14,408 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Switch:SW_Push SW2
+L Switch:SW_Push SW_NUMLK1
 U 1 1 5E22EBFF
-P 2000 4300
-F 0 "SW2" H 2000 4585 50  0000 C CNN
-F 1 "SW_Push" H 2000 4494 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2000 4500 50  0001 C CNN
-F 3 "~" H 2000 4500 50  0001 C CNN
-	1    2000 4300
+P 1700 4300
+F 0 "SW_NUMLK1" H 1700 4585 50  0000 C CNN
+F 1 "SW_Push" H 1700 4494 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 1700 4500 50  0001 C CNN
+F 3 "~" H 1700 4500 50  0001 C CNN
+	1    1700 4300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW8
+L Switch:SW_Push SW_SLASH1
 U 1 1 5E22F537
-P 2800 4300
-F 0 "SW8" H 2800 4585 50  0000 C CNN
-F 1 "SW_Push" H 2800 4494 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2800 4500 50  0001 C CNN
-F 3 "~" H 2800 4500 50  0001 C CNN
-	1    2800 4300
+P 2500 4300
+F 0 "SW_SLASH1" H 2500 4585 50  0000 C CNN
+F 1 "SW_Push" H 2500 4494 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 2500 4500 50  0001 C CNN
+F 3 "~" H 2500 4500 50  0001 C CNN
+	1    2500 4300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW13
+L Switch:SW_Push SW_STAR1
 U 1 1 5E22F9C6
-P 3550 4300
-F 0 "SW13" H 3550 4585 50  0000 C CNN
-F 1 "SW_Push" H 3550 4494 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3550 4500 50  0001 C CNN
-F 3 "~" H 3550 4500 50  0001 C CNN
-	1    3550 4300
+P 3300 4300
+F 0 "SW_STAR1" H 3300 4585 50  0000 C CNN
+F 1 "SW_Push" H 3300 4494 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 3300 4500 50  0001 C CNN
+F 3 "~" H 3300 4500 50  0001 C CNN
+	1    3300 4300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW19
+L Switch:SW_Push SW_MINUS1
 U 1 1 5E22FEA1
-P 4350 4300
-F 0 "SW19" H 4350 4585 50  0000 C CNN
-F 1 "SW_Push" H 4350 4494 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4350 4500 50  0001 C CNN
-F 3 "~" H 4350 4500 50  0001 C CNN
-	1    4350 4300
+P 4100 4300
+F 0 "SW_MINUS1" H 4100 4585 50  0000 C CNN
+F 1 "SW_Push" H 4100 4494 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 4100 4500 50  0001 C CNN
+F 3 "~" H 4100 4500 50  0001 C CNN
+	1    4100 4300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW3
+L Switch:SW_Push SW_7
 U 1 1 5E2307E5
-P 2000 5000
-F 0 "SW3" H 2000 5285 50  0000 C CNN
-F 1 "SW_Push" H 2000 5194 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2000 5200 50  0001 C CNN
-F 3 "~" H 2000 5200 50  0001 C CNN
-	1    2000 5000
+P 1700 5000
+F 0 "SW_7" H 1700 5285 50  0000 C CNN
+F 1 "SW_Push" H 1700 5194 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 1700 5200 50  0001 C CNN
+F 3 "~" H 1700 5200 50  0001 C CNN
+	1    1700 5000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW9
+L Switch:SW_Push SW_8
 U 1 1 5E230987
-P 2800 5000
-F 0 "SW9" H 2800 5285 50  0000 C CNN
-F 1 "SW_Push" H 2800 5194 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2800 5200 50  0001 C CNN
-F 3 "~" H 2800 5200 50  0001 C CNN
-	1    2800 5000
+P 2500 5000
+F 0 "SW_8" H 2500 5285 50  0000 C CNN
+F 1 "SW_Push" H 2500 5194 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 2500 5200 50  0001 C CNN
+F 3 "~" H 2500 5200 50  0001 C CNN
+	1    2500 5000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW14
+L Switch:SW_Push SW_9
 U 1 1 5E230BC6
-P 3550 5000
-F 0 "SW14" H 3550 5285 50  0000 C CNN
-F 1 "SW_Push" H 3550 5194 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3550 5200 50  0001 C CNN
-F 3 "~" H 3550 5200 50  0001 C CNN
-	1    3550 5000
+P 3300 5000
+F 0 "SW_9" H 3300 5285 50  0000 C CNN
+F 1 "SW_Push" H 3300 5194 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 3300 5200 50  0001 C CNN
+F 3 "~" H 3300 5200 50  0001 C CNN
+	1    3300 5000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW4
+L Switch:SW_Push SW_4
 U 1 1 5E231329
-P 2000 5700
-F 0 "SW4" H 2000 5985 50  0000 C CNN
-F 1 "SW_Push" H 2000 5894 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2000 5900 50  0001 C CNN
-F 3 "~" H 2000 5900 50  0001 C CNN
-	1    2000 5700
+P 1700 5700
+F 0 "SW_4" H 1700 5985 50  0000 C CNN
+F 1 "SW_Push" H 1700 5894 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 1700 5900 50  0001 C CNN
+F 3 "~" H 1700 5900 50  0001 C CNN
+	1    1700 5700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW10
+L Switch:SW_Push SW_5
 U 1 1 5E231523
-P 2800 5700
-F 0 "SW10" H 2800 5985 50  0000 C CNN
-F 1 "SW_Push" H 2800 5894 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2800 5900 50  0001 C CNN
-F 3 "~" H 2800 5900 50  0001 C CNN
-	1    2800 5700
+P 2500 5700
+F 0 "SW_5" H 2500 5985 50  0000 C CNN
+F 1 "SW_Push" H 2500 5894 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 2500 5900 50  0001 C CNN
+F 3 "~" H 2500 5900 50  0001 C CNN
+	1    2500 5700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW15
+L Switch:SW_Push SW_6
 U 1 1 5E231A93
-P 3550 5700
-F 0 "SW15" H 3550 5985 50  0000 C CNN
-F 1 "SW_Push" H 3550 5894 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3550 5900 50  0001 C CNN
-F 3 "~" H 3550 5900 50  0001 C CNN
-	1    3550 5700
+P 3300 5700
+F 0 "SW_6" H 3300 5985 50  0000 C CNN
+F 1 "SW_Push" H 3300 5894 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 3300 5900 50  0001 C CNN
+F 3 "~" H 3300 5900 50  0001 C CNN
+	1    3300 5700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW20
+L Switch:SW_Push SW_PLUS1
 U 1 1 5E231D5B
-P 4350 5000
-F 0 "SW20" H 4350 5285 50  0000 C CNN
-F 1 "SW_Push" H 4350 5194 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_Vertical_PCB" H 4350 5200 50  0001 C CNN
-F 3 "~" H 4350 5200 50  0001 C CNN
-	1    4350 5000
+P 4100 5000
+F 0 "SW_PLUS1" H 4100 5285 50  0000 C CNN
+F 1 "SW_Push" H 4100 5194 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-2U" H 4100 5200 50  0001 C CNN
+F 3 "~" H 4100 5200 50  0001 C CNN
+	1    4100 5000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW5
+L Switch:SW_Push SW_1
 U 1 1 5E232399
-P 2000 6350
-F 0 "SW5" H 2000 6635 50  0000 C CNN
-F 1 "SW_Push" H 2000 6544 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2000 6550 50  0001 C CNN
-F 3 "~" H 2000 6550 50  0001 C CNN
-	1    2000 6350
+P 1700 6350
+F 0 "SW_1" H 1700 6635 50  0000 C CNN
+F 1 "SW_Push" H 1700 6544 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 1700 6550 50  0001 C CNN
+F 3 "~" H 1700 6550 50  0001 C CNN
+	1    1700 6350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW11
+L Switch:SW_Push SW_2
 U 1 1 5E232CE1
-P 2800 6350
-F 0 "SW11" H 2800 6635 50  0000 C CNN
-F 1 "SW_Push" H 2800 6544 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2800 6550 50  0001 C CNN
-F 3 "~" H 2800 6550 50  0001 C CNN
-	1    2800 6350
+P 2500 6350
+F 0 "SW_2" H 2500 6635 50  0000 C CNN
+F 1 "SW_Push" H 2500 6544 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 2500 6550 50  0001 C CNN
+F 3 "~" H 2500 6550 50  0001 C CNN
+	1    2500 6350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW16
+L Switch:SW_Push SW_3
 U 1 1 5E23334B
-P 3550 6350
-F 0 "SW16" H 3550 6635 50  0000 C CNN
-F 1 "SW_Push" H 3550 6544 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3550 6550 50  0001 C CNN
-F 3 "~" H 3550 6550 50  0001 C CNN
-	1    3550 6350
+P 3300 6350
+F 0 "SW_3" H 3300 6635 50  0000 C CNN
+F 1 "SW_Push" H 3300 6544 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 3300 6550 50  0001 C CNN
+F 3 "~" H 3300 6550 50  0001 C CNN
+	1    3300 6350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW6
+L Switch:SW_Push SW_0
 U 1 1 5E233C29
-P 2000 7050
-F 0 "SW6" H 2000 7335 50  0000 C CNN
-F 1 "SW_Push" H 2000 7244 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_PCB" H 2000 7250 50  0001 C CNN
-F 3 "~" H 2000 7250 50  0001 C CNN
-	1    2000 7050
+P 1700 7050
+F 0 "SW_0" H 1700 7335 50  0000 C CNN
+F 1 "SW_Push" H 1700 7244 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-2U" H 1700 7250 50  0001 C CNN
+F 3 "~" H 1700 7250 50  0001 C CNN
+	1    1700 7050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW17
+L Switch:SW_Push SW_DOT1
 U 1 1 5E2344D8
-P 3550 7050
-F 0 "SW17" H 3550 7335 50  0000 C CNN
-F 1 "SW_Push" H 3550 7244 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3550 7250 50  0001 C CNN
-F 3 "~" H 3550 7250 50  0001 C CNN
-	1    3550 7050
+P 3300 7050
+F 0 "SW_DOT1" H 3300 7335 50  0000 C CNN
+F 1 "SW_Push" H 3300 7244 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 3300 7250 50  0001 C CNN
+F 3 "~" H 3300 7250 50  0001 C CNN
+	1    3300 7050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW21
-U 1 1 5E2348D7
-P 4350 6350
-F 0 "SW21" H 4350 6635 50  0000 C CNN
-F 1 "SW_Push" H 4350 6544 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_Vertical_PCB" H 4350 6550 50  0001 C CNN
-F 3 "~" H 4350 6550 50  0001 C CNN
-	1    4350 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:1N4148 D4
+L Diode:1N4148 D_4
 U 1 1 5E280E58
-P 1650 5700
-F 0 "D4" H 1650 5916 50  0000 C CNN
-F 1 "1N4148" H 1650 5825 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 1650 5525 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1650 5700 50  0001 C CNN
-F 4 "C81598" H 1650 5700 50  0001 C CNN "LCSC"
-	1    1650 5700
-	1    0    0    -1  
+P 2050 5700
+F 0 "D_4" H 2050 5916 50  0000 C CNN
+F 1 "1N4148" H 2050 5825 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2050 5525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2050 5700 50  0001 C CNN
+F 4 "C81598" H 2050 5700 50  0001 C CNN "LCSC"
+	1    2050 5700
+	-1   0    0    -1  
 $EndComp
-Connection ~ 1500 5700
-Wire Wire Line
-	1500 5700 1500 6350
 $Comp
-L Diode:1N4148 D5
+L Diode:1N4148 D_1
 U 1 1 5E28120C
-P 1650 6350
-F 0 "D5" H 1650 6566 50  0000 C CNN
-F 1 "1N4148" H 1650 6475 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 1650 6175 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1650 6350 50  0001 C CNN
-F 4 "C81598" H 1650 6350 50  0001 C CNN "LCSC"
-	1    1650 6350
-	1    0    0    -1  
+P 2050 6350
+F 0 "D_1" H 2050 6566 50  0000 C CNN
+F 1 "1N4148" H 2050 6475 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2050 6175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2050 6350 50  0001 C CNN
+F 4 "C81598" H 2050 6350 50  0001 C CNN "LCSC"
+	1    2050 6350
+	-1   0    0    -1  
 $EndComp
-Connection ~ 1500 6350
 $Comp
-L Diode:1N4148 D8
+L Diode:1N4148 D_SLASH1
 U 1 1 5E283A19
-P 2450 4300
-F 0 "D8" H 2450 4516 50  0000 C CNN
-F 1 "1N4148" H 2450 4425 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 2450 4125 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2450 4300 50  0001 C CNN
-F 4 "C81598" H 2450 4300 50  0001 C CNN "LCSC"
-	1    2450 4300
-	1    0    0    -1  
+P 2850 4300
+F 0 "D_SLASH1" H 2850 4516 50  0000 C CNN
+F 1 "1N4148" H 2850 4425 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2850 4125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2850 4300 50  0001 C CNN
+F 4 "C81598" H 2850 4300 50  0001 C CNN "LCSC"
+	1    2850 4300
+	-1   0    0    -1  
 $EndComp
 Connection ~ 2300 4300
 $Comp
-L Diode:1N4148 D9
+L Diode:1N4148 D_8
 U 1 1 5E2844D4
-P 2450 5000
-F 0 "D9" H 2450 5216 50  0000 C CNN
-F 1 "1N4148" H 2450 5125 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 2450 4825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2450 5000 50  0001 C CNN
-F 4 "C81598" H 2450 5000 50  0001 C CNN "LCSC"
-	1    2450 5000
-	1    0    0    -1  
+P 2850 5000
+F 0 "D_8" H 2850 5216 50  0000 C CNN
+F 1 "1N4148" H 2850 5125 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2850 4825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2850 5000 50  0001 C CNN
+F 4 "C81598" H 2850 5000 50  0001 C CNN "LCSC"
+	1    2850 5000
+	-1   0    0    -1  
 $EndComp
 Connection ~ 2300 5000
-Wire Wire Line
-	2300 5000 2300 5700
 $Comp
-L Diode:1N4148 D10
+L Diode:1N4148 D_5
 U 1 1 5E2851C9
-P 2450 5700
-F 0 "D10" H 2450 5916 50  0000 C CNN
-F 1 "1N4148" H 2450 5825 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 2450 5525 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2450 5700 50  0001 C CNN
-F 4 "C81598" H 2450 5700 50  0001 C CNN "LCSC"
-	1    2450 5700
-	1    0    0    -1  
+P 2850 5700
+F 0 "D_5" H 2850 5916 50  0000 C CNN
+F 1 "1N4148" H 2850 5825 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2850 5525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2850 5700 50  0001 C CNN
+F 4 "C81598" H 2850 5700 50  0001 C CNN "LCSC"
+	1    2850 5700
+	-1   0    0    -1  
 $EndComp
-Connection ~ 2300 5700
-Wire Wire Line
-	2300 5700 2300 6350
 $Comp
-L Diode:1N4148 D11
+L Diode:1N4148 D_2
 U 1 1 5E285AF0
-P 2450 6350
-F 0 "D11" H 2450 6566 50  0000 C CNN
-F 1 "1N4148" H 2450 6475 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 2450 6175 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2450 6350 50  0001 C CNN
-F 4 "C81598" H 2450 6350 50  0001 C CNN "LCSC"
-	1    2450 6350
-	1    0    0    -1  
+P 2850 6350
+F 0 "D_2" H 2850 6566 50  0000 C CNN
+F 1 "1N4148" H 2850 6475 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2850 6175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2850 6350 50  0001 C CNN
+F 4 "C81598" H 2850 6350 50  0001 C CNN "LCSC"
+	1    2850 6350
+	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D13
+L Diode:1N4148 D_STAR1
 U 1 1 5E297213
-P 3200 4300
-F 0 "D13" H 3200 4516 50  0000 C CNN
-F 1 "1N4148" H 3200 4425 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 3200 4125 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3200 4300 50  0001 C CNN
-F 4 "C81598" H 3200 4300 50  0001 C CNN "LCSC"
-	1    3200 4300
-	1    0    0    -1  
+P 3650 4300
+F 0 "D_STAR1" H 3650 4516 50  0000 C CNN
+F 1 "1N4148" H 3650 4425 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 3650 4125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3650 4300 50  0001 C CNN
+F 4 "C81598" H 3650 4300 50  0001 C CNN "LCSC"
+	1    3650 4300
+	-1   0    0    -1  
 $EndComp
-Connection ~ 3050 4300
+Connection ~ 3100 4300
 $Comp
-L Diode:1N4148 D14
+L Diode:1N4148 D_9
 U 1 1 5E2981D4
-P 3200 5000
-F 0 "D14" H 3200 5216 50  0000 C CNN
-F 1 "1N4148" H 3200 5125 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 3200 4825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3200 5000 50  0001 C CNN
-F 4 "C81598" H 3200 5000 50  0001 C CNN "LCSC"
-	1    3200 5000
-	1    0    0    -1  
+P 3650 5000
+F 0 "D_9" H 3650 5216 50  0000 C CNN
+F 1 "1N4148" H 3650 5125 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 3650 4825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3650 5000 50  0001 C CNN
+F 4 "C81598" H 3650 5000 50  0001 C CNN "LCSC"
+	1    3650 5000
+	-1   0    0    -1  
 $EndComp
-Connection ~ 3050 5000
-Wire Wire Line
-	3050 5000 3050 5700
+Connection ~ 3100 5000
 $Comp
-L Diode:1N4148 D15
+L Diode:1N4148 D_6
 U 1 1 5E29943C
-P 3200 5700
-F 0 "D15" H 3200 5916 50  0000 C CNN
-F 1 "1N4148" H 3200 5825 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 3200 5525 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3200 5700 50  0001 C CNN
-F 4 "C81598" H 3200 5700 50  0001 C CNN "LCSC"
-	1    3200 5700
-	1    0    0    -1  
+P 3650 5700
+F 0 "D_6" H 3650 5916 50  0000 C CNN
+F 1 "1N4148" H 3650 5825 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 3650 5525 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3650 5700 50  0001 C CNN
+F 4 "C81598" H 3650 5700 50  0001 C CNN "LCSC"
+	1    3650 5700
+	-1   0    0    -1  
 $EndComp
-Connection ~ 3050 5700
-Wire Wire Line
-	3050 5700 3050 6350
 $Comp
-L Diode:1N4148 D16
+L Diode:1N4148 D_3
 U 1 1 5E299A60
-P 3200 6350
-F 0 "D16" H 3200 6566 50  0000 C CNN
-F 1 "1N4148" H 3200 6475 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 3200 6175 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3200 6350 50  0001 C CNN
-F 4 "C81598" H 3200 6350 50  0001 C CNN "LCSC"
-	1    3200 6350
-	1    0    0    -1  
+P 3650 6350
+F 0 "D_3" H 3650 6566 50  0000 C CNN
+F 1 "1N4148" H 3650 6475 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 3650 6175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3650 6350 50  0001 C CNN
+F 4 "C81598" H 3650 6350 50  0001 C CNN "LCSC"
+	1    3650 6350
+	-1   0    0    -1  
 $EndComp
-Connection ~ 3050 6350
-Wire Wire Line
-	3050 6350 3050 7050
 $Comp
-L Diode:1N4148 D17
+L Diode:1N4148 D_DOT1
 U 1 1 5E29A5D7
-P 3200 7050
-F 0 "D17" H 3200 7266 50  0000 C CNN
-F 1 "1N4148" H 3200 7175 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 3200 6875 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3200 7050 50  0001 C CNN
-F 4 "C81598" H 3200 7050 50  0001 C CNN "LCSC"
-	1    3200 7050
-	1    0    0    -1  
+P 3650 7050
+F 0 "D_DOT1" H 3650 7266 50  0000 C CNN
+F 1 "1N4148" H 3650 7175 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 3650 6875 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3650 7050 50  0001 C CNN
+F 4 "C81598" H 3650 7050 50  0001 C CNN "LCSC"
+	1    3650 7050
+	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D19
+L Diode:1N4148 D_MINUS1
 U 1 1 5E29DE5B
-P 4000 4300
-F 0 "D19" H 4000 4516 50  0000 C CNN
-F 1 "1N4148" H 4000 4425 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 4000 4125 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4000 4300 50  0001 C CNN
-F 4 "C81598" H 4000 4300 50  0001 C CNN "LCSC"
-	1    4000 4300
-	1    0    0    -1  
+P 4450 4300
+F 0 "D_MINUS1" H 4450 4516 50  0000 C CNN
+F 1 "1N4148" H 4450 4425 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 4450 4125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4450 4300 50  0001 C CNN
+F 4 "C81598" H 4450 4300 50  0001 C CNN "LCSC"
+	1    4450 4300
+	-1   0    0    -1  
 $EndComp
-Connection ~ 3850 4300
+Connection ~ 3900 4300
 $Comp
-L Diode:1N4148 D20
+L Diode:1N4148 D_PLUS1
 U 1 1 5E29E8A6
-P 4000 5000
-F 0 "D20" H 4000 5216 50  0000 C CNN
-F 1 "1N4148" H 4000 5125 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 4000 4825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4000 5000 50  0001 C CNN
-F 4 "C81598" H 4000 5000 50  0001 C CNN "LCSC"
-	1    4000 5000
-	1    0    0    -1  
+P 4450 5000
+F 0 "D_PLUS1" H 4450 5216 50  0000 C CNN
+F 1 "1N4148" H 4450 5125 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 4450 4825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4450 5000 50  0001 C CNN
+F 4 "C81598" H 4450 5000 50  0001 C CNN "LCSC"
+	1    4450 5000
+	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D21
+L Diode:1N4148 D_ENTER1
 U 1 1 5E29F397
-P 4000 6350
-F 0 "D21" H 4000 6566 50  0000 C CNN
-F 1 "1N4148" H 4000 6475 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 4000 6175 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4000 6350 50  0001 C CNN
-F 4 "C81598" H 4000 6350 50  0001 C CNN "LCSC"
-	1    4000 6350
-	1    0    0    -1  
+P 4450 6350
+F 0 "D_ENTER1" H 4450 6566 50  0000 C CNN
+F 1 "1N4148" H 4450 6475 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 4450 6175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4450 6350 50  0001 C CNN
+F 4 "C81598" H 4450 6350 50  0001 C CNN "LCSC"
+	1    4450 6350
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 4400 4550 4300
+	4600 4400 4600 4300
 Wire Wire Line
-	3750 4300 3750 4400
-Connection ~ 3750 4400
+	3800 4300 3800 4400
+Connection ~ 3800 4400
 Wire Wire Line
-	3750 4400 4550 4400
+	3800 4400 4600 4400
 Wire Wire Line
 	3000 4300 3000 4400
-Connection ~ 3000 4400
-Wire Wire Line
-	3000 4400 3750 4400
 Wire Wire Line
 	2200 4300 2200 4400
 Wire Wire Line
 	2200 4400 3000 4400
 Wire Wire Line
-	3750 5100 3750 5000
-Wire Wire Line
-	3000 5100 3000 5000
-Connection ~ 3000 5100
-Wire Wire Line
-	3000 5100 3750 5100
+	3800 5100 3800 5000
 Wire Wire Line
 	2200 5100 2200 5000
 Wire Wire Line
 	2200 5100 3000 5100
-Connection ~ 3850 5000
+Connection ~ 3900 5000
 Wire Wire Line
-	3850 5000 3850 6350
+	3900 5000 3900 6350
 Wire Wire Line
-	3750 5800 3750 5700
+	3800 5800 3800 5700
 Wire Wire Line
-	3750 5100 4550 5100
+	3800 5100 4600 5100
 Wire Wire Line
-	4550 5100 4550 5000
-Connection ~ 3750 5100
+	4600 5100 4600 5000
+Connection ~ 3800 5100
 Wire Wire Line
 	3000 5700 3000 5800
-Connection ~ 3000 5800
-Wire Wire Line
-	3000 5800 3750 5800
 Wire Wire Line
 	2200 5700 2200 5800
 Wire Wire Line
 	2200 5800 3000 5800
 Wire Wire Line
-	4550 6450 4550 6350
+	3800 6350 3800 6450
+Connection ~ 3800 6450
 Wire Wire Line
-	3750 6350 3750 6450
-Connection ~ 3750 6450
-Wire Wire Line
-	3750 6450 4550 6450
+	3800 6450 4600 6450
 Wire Wire Line
 	3000 6350 3000 6450
-Connection ~ 3000 6450
-Wire Wire Line
-	3000 6450 3750 6450
 Wire Wire Line
 	2200 6350 2200 6450
 Wire Wire Line
 	2200 6450 3000 6450
 Wire Wire Line
-	3750 7150 3750 7050
+	3800 7150 3800 7050
 Wire Wire Line
 	2200 7050 2200 7150
 Wire Wire Line
-	2200 7150 3750 7150
+	3900 4300 3900 5000
 Wire Wire Line
-	3850 4300 3850 5000
-Wire Wire Line
-	3050 4300 3050 5000
+	3100 4300 3100 5000
 Wire Wire Line
 	2300 4300 2300 5000
 Wire Wire Line
@@ -470,133 +424,109 @@ Connection ~ 2200 3750
 Wire Wire Line
 	2200 3650 2200 3750
 Wire Wire Line
-	3000 3750 3750 3750
-Connection ~ 3000 3750
-Wire Wire Line
 	3000 3650 3000 3750
 Wire Wire Line
-	3750 3750 4550 3750
-Connection ~ 3750 3750
+	3800 3750 4600 3750
+Connection ~ 3800 3750
 Wire Wire Line
-	3750 3650 3750 3750
+	3800 3650 3800 3750
 Wire Wire Line
-	4550 3750 4550 3650
+	4600 3750 4600 3650
 Wire Wire Line
 	1450 3750 2200 3750
 Wire Wire Line
-	3850 3650 3850 4300
+	3900 3650 3900 4300
 $Comp
-L Diode:1N4148 D18
+L Diode:1N4148 D_BKSP1
 U 1 1 5E29CCB2
-P 4000 3650
-F 0 "D18" H 4000 3866 50  0000 C CNN
-F 1 "1N4148" H 4000 3775 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 4000 3475 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4000 3650 50  0001 C CNN
-F 4 "C81598" H 4000 3650 50  0001 C CNN "LCSC"
-	1    4000 3650
-	1    0    0    -1  
+P 4450 3650
+F 0 "D_BKSP1" H 4450 3866 50  0000 C CNN
+F 1 "1N4148" H 4450 3775 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 4450 3475 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4450 3650 50  0001 C CNN
+F 4 "C81598" H 4450 3650 50  0001 C CNN "LCSC"
+	1    4450 3650
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3050 3650 3050 4300
+	3100 3650 3100 4300
 $Comp
-L Diode:1N4148 D12
-U 1 1 5E2956B9
-P 3200 3650
-F 0 "D12" H 3200 3866 50  0000 C CNN
-F 1 "1N4148" H 3200 3775 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 3200 3475 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3200 3650 50  0001 C CNN
-F 4 "C81598" H 3200 3650 50  0001 C CNN "LCSC"
-	1    3200 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 3650 2300 4300
-$Comp
-L Diode:1N4148 D7
+L Diode:1N4148 D_TAB1
 U 1 1 5E282A73
-P 2450 3650
-F 0 "D7" H 2450 3866 50  0000 C CNN
-F 1 "1N4148" H 2450 3775 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 2450 3475 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2450 3650 50  0001 C CNN
-F 4 "C81598" H 2450 3650 50  0001 C CNN "LCSC"
-	1    2450 3650
-	1    0    0    -1  
+P 2850 3650
+F 0 "D_TAB1" H 2850 3866 50  0000 C CNN
+F 1 "1N4148" H 2850 3775 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2850 3475 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2850 3650 50  0001 C CNN
+F 4 "C81598" H 2850 3650 50  0001 C CNN "LCSC"
+	1    2850 3650
+	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D1
+L Diode:1N4148 D_ESC1
 U 1 1 5E2776E9
-P 1650 3650
-F 0 "D1" H 1650 3866 50  0000 C CNN
-F 1 "1N4148" H 1650 3775 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 1650 3475 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1650 3650 50  0001 C CNN
-F 4 "C81598" H 1650 3650 50  0001 C CNN "LCSC"
-	1    1650 3650
-	1    0    0    -1  
+P 2050 3650
+F 0 "D_ESC1" H 2050 3866 50  0000 C CNN
+F 1 "1N4148" H 2050 3775 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2050 3475 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2050 3650 50  0001 C CNN
+F 4 "C81598" H 2050 3650 50  0001 C CNN "LCSC"
+	1    2050 3650
+	-1   0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW18
+L Switch:SW_Push SW_BKSP1
 U 1 1 5E22E59B
-P 4350 3650
-F 0 "SW18" H 4350 3935 50  0000 C CNN
-F 1 "SW_Push" H 4350 3844 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4350 3850 50  0001 C CNN
-F 3 "~" H 4350 3850 50  0001 C CNN
-	1    4350 3650
+P 4100 3650
+F 0 "SW_BKSP1" H 4100 3935 50  0000 C CNN
+F 1 "SW_Push" H 4100 3844 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 4100 3850 50  0001 C CNN
+F 3 "~" H 4100 3850 50  0001 C CNN
+	1    4100 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW12
+L Switch:SW_Push SW_FN1
 U 1 1 5E22E0C7
-P 3550 3650
-F 0 "SW12" H 3550 3935 50  0000 C CNN
-F 1 "SW_Push" H 3550 3844 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3550 3850 50  0001 C CNN
-F 3 "~" H 3550 3850 50  0001 C CNN
-	1    3550 3650
+P 3300 3650
+F 0 "SW_FN1" H 3300 3935 50  0000 C CNN
+F 1 "SW_Push" H 3300 3844 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 3300 3850 50  0001 C CNN
+F 3 "~" H 3300 3850 50  0001 C CNN
+	1    3300 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW7
+L Switch:SW_Push SW_TAB1
 U 1 1 5E22C850
-P 2800 3650
-F 0 "SW7" H 2800 3935 50  0000 C CNN
-F 1 "SW_Push" H 2800 3844 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2800 3850 50  0001 C CNN
-F 3 "~" H 2800 3850 50  0001 C CNN
-	1    2800 3650
+P 2500 3650
+F 0 "SW_TAB1" H 2500 3935 50  0000 C CNN
+F 1 "SW_Push" H 2500 3844 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 2500 3850 50  0001 C CNN
+F 3 "~" H 2500 3850 50  0001 C CNN
+	1    2500 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW1
+L Switch:SW_Push SW_ESC1
 U 1 1 5E22B5D2
-P 2000 3650
-F 0 "SW1" H 2000 3935 50  0000 C CNN
-F 1 "SW_Push" H 2000 3844 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2000 3850 50  0001 C CNN
-F 3 "~" H 2000 3850 50  0001 C CNN
-	1    2000 3650
+P 1700 3650
+F 0 "SW_ESC1" H 1700 3935 50  0000 C CNN
+F 1 "SW_Push" H 1700 3844 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 1700 3850 50  0001 C CNN
+F 3 "~" H 1700 3850 50  0001 C CNN
+	1    1700 3650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 6350 1500 7050
+	3900 3650 3900 3200
+Connection ~ 3900 3650
 Wire Wire Line
-	3850 3650 3850 3200
-Connection ~ 3850 3650
-Wire Wire Line
-	3050 3650 3050 3200
-Connection ~ 3050 3650
-Wire Wire Line
-	2300 3650 2300 3200
-Connection ~ 2300 3650
-Wire Wire Line
-	1500 3650 1500 3200
-Text GLabel 3850 3200 1    50   Input ~ 0
+	3100 3650 3100 3200
+Connection ~ 3100 3650
+Text GLabel 3900 3200 1    50   Input ~ 0
 col4
-Text GLabel 3050 3200 1    50   Input ~ 0
+Text GLabel 3100 3200 1    50   Input ~ 0
 col3
 Text GLabel 2300 3200 1    50   Input ~ 0
 col2
@@ -612,52 +542,31 @@ Text GLabel 1450 6450 0    50   Input ~ 0
 row5
 Text GLabel 1450 7150 0    50   Input ~ 0
 row6
-Connection ~ 1500 3650
 Text GLabel 1450 4400 0    50   Input ~ 0
 row2
-Wire Wire Line
-	1500 3650 1500 4300
-Connection ~ 1500 4300
 $Comp
-L Diode:1N4148 D2
+L Diode:1N4148 D_NUMLK1
 U 1 1 5E27FDC0
-P 1650 4300
-F 0 "D2" H 1650 4516 50  0000 C CNN
-F 1 "1N4148" H 1650 4425 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 1650 4125 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1650 4300 50  0001 C CNN
-F 4 "C81598" H 1650 4300 50  0001 C CNN "LCSC"
-	1    1650 4300
-	1    0    0    -1  
+P 2050 4300
+F 0 "D_NUMLK1" H 2050 4516 50  0000 C CNN
+F 1 "1N4148" H 2050 4425 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2050 4125 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2050 4300 50  0001 C CNN
+F 4 "C81598" H 2050 4300 50  0001 C CNN "LCSC"
+	1    2050 4300
+	-1   0    0    -1  
 $EndComp
-Connection ~ 1500 5000
-Wire Wire Line
-	1500 4300 1500 5000
-Wire Wire Line
-	1500 5000 1500 5700
 $Comp
-L Diode:1N4148 D3
+L Diode:1N4148 D_7
 U 1 1 5E28089E
-P 1650 5000
-F 0 "D3" H 1650 5216 50  0000 C CNN
-F 1 "1N4148" H 1650 5125 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 1650 4825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1650 5000 50  0001 C CNN
-F 4 "C81598" H 1650 5000 50  0001 C CNN "LCSC"
-	1    1650 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:1N4148 D6
-U 1 1 5E281BBE
-P 1650 7050
-F 0 "D6" H 1650 7266 50  0000 C CNN
-F 1 "1N4148" H 1650 7175 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 1650 6875 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1650 7050 50  0001 C CNN
-F 4 "C81598" H 1650 7050 50  0001 C CNN "LCSC"
-	1    1650 7050
-	1    0    0    -1  
+P 2050 5000
+F 0 "D_7" H 2050 5216 50  0000 C CNN
+F 1 "1N4148" H 2050 5125 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2050 4825 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2050 5000 50  0001 C CNN
+F 4 "C81598" H 2050 5000 50  0001 C CNN "LCSC"
+	1    2050 5000
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2200 4400 1450 4400
@@ -673,7 +582,6 @@ Wire Wire Line
 Connection ~ 2200 6450
 Wire Wire Line
 	2200 7150 1450 7150
-Connection ~ 2200 7150
 $Comp
 L power:GND #PWR015
 U 1 1 5E25F0CC
@@ -1242,17 +1150,17 @@ F 3 "" H 4800 2050 50  0001 C CNN
 	1    4800 2050
 	1    0    0    -1  
 $EndComp
-Text GLabel 6350 4400 0    50   Input ~ 0
+Text GLabel 7650 3400 2    50   Input ~ 0
 col4
-Text GLabel 6350 4500 0    50   Input ~ 0
+Text GLabel 7650 3500 2    50   Input ~ 0
 col3
-Text GLabel 6350 4600 0    50   Input ~ 0
+Text GLabel 6350 4400 0    50   Input ~ 0
 col2
-Text GLabel 6350 4700 0    50   Input ~ 0
+Text GLabel 6350 4500 0    50   Input ~ 0
 col1
-Text GLabel 6350 4300 0    50   Input ~ 0
+Text GLabel 6350 4100 0    50   Input ~ 0
 row1
-Text GLabel 6350 3400 0    50   Input ~ 0
+Text GLabel 6350 4300 0    50   Input ~ 0
 row3
 Text GLabel 6350 3300 0    50   Input ~ 0
 row4
@@ -1268,14 +1176,9 @@ NoConn ~ 6350 3500
 NoConn ~ 6350 4000
 NoConn ~ 6350 3900
 NoConn ~ 6350 3800
-NoConn ~ 7650 3200
-NoConn ~ 7650 3300
-NoConn ~ 7650 3400
-NoConn ~ 7650 3500
 NoConn ~ 7650 3600
 NoConn ~ 7650 3700
 NoConn ~ 7650 3800
-NoConn ~ 6350 4100
 NoConn ~ 7650 4000
 NoConn ~ 7650 4100
 NoConn ~ 7650 4200
@@ -1291,70 +1194,6 @@ F 4 "C25905" H 8600 3300 50  0001 C CNN "LCSC"
 	1    8600 3300
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 5E561D2A
-P 10300 650
-F 0 "H1" V 10254 800 50  0000 L CNN
-F 1 "MountingHole_Pad" V 10345 800 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 10300 650 50  0001 C CNN
-F 3 "~" H 10300 650 50  0001 C CNN
-	1    10300 650 
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 5E56326A
-P 10300 850
-F 0 "H2" V 10254 1000 50  0000 L CNN
-F 1 "MountingHole_Pad" V 10345 1000 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 10300 850 50  0001 C CNN
-F 3 "~" H 10300 850 50  0001 C CNN
-	1    10300 850 
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H3
-U 1 1 5E564331
-P 10300 1050
-F 0 "H3" V 10254 1200 50  0000 L CNN
-F 1 "MountingHole_Pad" V 10345 1200 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 10300 1050 50  0001 C CNN
-F 3 "~" H 10300 1050 50  0001 C CNN
-	1    10300 1050
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 5E565CA2
-P 10300 1250
-F 0 "H4" V 10254 1400 50  0000 L CNN
-F 1 "MountingHole_Pad" V 10345 1400 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 10300 1250 50  0001 C CNN
-F 3 "~" H 10300 1250 50  0001 C CNN
-	1    10300 1250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10200 650  10200 850 
-Connection ~ 10200 850 
-Connection ~ 10200 1050
-Wire Wire Line
-	10200 1050 10200 1250
-$Comp
-L power:GND #PWR024
-U 1 1 5E56B7E1
-P 10200 1250
-F 0 "#PWR024" H 10200 1000 50  0001 C CNN
-F 1 "GND" V 10205 1122 50  0000 R CNN
-F 2 "" H 10200 1250 50  0001 C CNN
-F 3 "" H 10200 1250 50  0001 C CNN
-	1    10200 1250
-	0    1    1    0   
-$EndComp
-Connection ~ 10200 1250
-Wire Wire Line
-	10200 850  10200 1050
 Wire Wire Line
 	8500 3000 8500 3150
 Wire Wire Line
@@ -1524,4 +1363,140 @@ Connection ~ 9850 3650
 Wire Wire Line
 	9850 3850 9850 3950
 Connection ~ 9850 3950
+Connection ~ 1500 5700
+Wire Wire Line
+	4600 6450 4600 6350
+$Comp
+L Switch:SW_Push SW_ENTER1
+U 1 1 5E2348D7
+P 4100 6350
+F 0 "SW_ENTER1" H 4100 6635 50  0000 C CNN
+F 1 "SW_Push" H 4100 6544 50  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-2U" H 4100 6550 50  0001 C CNN
+F 3 "~" H 4100 6550 50  0001 C CNN
+	1    4100 6350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3100 6350
+Wire Wire Line
+	3100 6350 3100 7050
+$Comp
+L Diode:1N4148 D_0
+U 1 1 5E281BBE
+P 2050 7050
+F 0 "D_0" H 2050 7266 50  0000 C CNN
+F 1 "1N4148" H 2050 7175 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2050 6875 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2050 7050 50  0001 C CNN
+F 4 "C81598" H 2050 7050 50  0001 C CNN "LCSC"
+	1    2050 7050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 5700 1500 6350
+Connection ~ 1500 6350
+Wire Wire Line
+	1500 6350 1500 7050
+Wire Wire Line
+	3100 5000 3100 5700
+Connection ~ 3100 5700
+Wire Wire Line
+	3100 5700 3100 6350
+Wire Wire Line
+	2300 5000 2300 5700
+Connection ~ 2300 5700
+Wire Wire Line
+	2300 5700 2300 6350
+Connection ~ 1500 5000
+Wire Wire Line
+	1500 5000 1500 5700
+Connection ~ 1500 4300
+Wire Wire Line
+	1500 4300 1500 5000
+Wire Wire Line
+	1500 3200 1500 3650
+Connection ~ 1500 3650
+Wire Wire Line
+	1500 3650 1500 4300
+Wire Wire Line
+	2300 3200 2300 3650
+Connection ~ 2300 3650
+Wire Wire Line
+	2300 3650 2300 4300
+$Comp
+L Diode:1N4148 D_FN1
+U 1 1 5E2956B9
+P 3650 3650
+F 0 "D_FN1" H 3650 3866 50  0000 C CNN
+F 1 "1N4148" H 3650 3775 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 3650 3475 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3650 3650 50  0001 C CNN
+F 4 "C81598" H 3650 3650 50  0001 C CNN "LCSC"
+	1    3650 3650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 7150 3800 7150
+Connection ~ 2200 7150
+Wire Wire Line
+	3000 5800 3800 5800
+Connection ~ 3000 5800
+Wire Wire Line
+	3000 6450 3800 6450
+Connection ~ 3000 6450
+Wire Wire Line
+	3000 4400 3800 4400
+Connection ~ 3000 4400
+Wire Wire Line
+	3000 3750 3800 3750
+Connection ~ 3000 3750
+Wire Wire Line
+	3000 5100 3800 5100
+Connection ~ 3000 5100
+Wire Wire Line
+	3000 5000 3000 5100
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5E67B8E1
+P 10550 650
+F 0 "H1" H 10650 696 50  0000 L CNN
+F 1 "MountingHole" H 10650 605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10550 650 50  0001 C CNN
+F 3 "~" H 10550 650 50  0001 C CNN
+	1    10550 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5E67C9F7
+P 10550 850
+F 0 "H2" H 10650 896 50  0000 L CNN
+F 1 "MountingHole" H 10650 805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10550 850 50  0001 C CNN
+F 3 "~" H 10550 850 50  0001 C CNN
+	1    10550 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5E67E199
+P 10550 1050
+F 0 "H3" H 10650 1096 50  0000 L CNN
+F 1 "MountingHole" H 10650 1005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10550 1050 50  0001 C CNN
+F 3 "~" H 10550 1050 50  0001 C CNN
+	1    10550 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5E67EEB5
+P 10550 1250
+F 0 "H4" H 10650 1296 50  0000 L CNN
+F 1 "MountingHole" H 10650 1205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10550 1250 50  0001 C CNN
+F 3 "~" H 10550 1250 50  0001 C CNN
+	1    10550 1250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

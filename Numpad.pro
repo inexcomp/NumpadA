@@ -1,4 +1,4 @@
-update=Wednesday, January 22, 2020 at 11:10:35 PM
+update=Sun 16 Feb 2020 07:48:37 PM PST
 version=1
 last_client=kicad
 [general]
@@ -41,7 +41,7 @@ MinHoleToHole=0.2
 TrackWidth1=0.127
 ViaDiameter1=0.6
 ViaDrill1=0.3
-dPairWidth1=0.2
+dPairWidth1=0.127
 dPairGap1=0.25
 dPairViaGap1=0.25
 SilkLineWidth=0.12
@@ -239,6 +239,17 @@ Enabled=0
 Name=Default
 Clearance=0.127
 TrackWidth=0.127
+ViaDiameter=0.6
+ViaDrill=0.3
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.127
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=Power
+Clearance=0.127
+TrackWidth=0.2
 ViaDiameter=0.6
 ViaDrill=0.3
 uViaDiameter=0.3
