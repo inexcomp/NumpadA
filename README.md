@@ -2,7 +2,7 @@
 
 A mechanical numpad.
 
-![Image of the numpad](/v0.4/NumpadA-v0.4-front.png)
+<img src="/v0.4//v0.4/NumpadA-v0.4-front-rt.png" height="300px" />
 
 Branches:
 - master: Pro Micro version with MX support only
