@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Numpad-rescue)(type Legacy)(uri ${KIPRJMOD}/Numpad-rescue.lib)(options "")(descr ""))
+)

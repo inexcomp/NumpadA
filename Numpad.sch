@@ -1043,8 +1043,6 @@ F 3 "" H 7850 1450 50  0001 C CNN
 	1    7850 1450
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5050 1700
-NoConn ~ 5050 1900
 $Comp
 L power:+5V #PWR013
 U 1 1 5E4CECFC
@@ -1184,9 +1182,9 @@ Text GLabel 2450 1700 3    50   Input ~ 0
 VDD3
 Text GLabel 2850 2000 3    50   Input ~ 0
 VDDA
-Text GLabel 6050 1700 2    50   Input ~ 0
+Text GLabel 5050 1900 0    50   Input ~ 0
 DA+
-Text GLabel 6050 1900 2    50   Input ~ 0
+Text GLabel 6050 1700 2    50   Input ~ 0
 DA-
 $Comp
 L Power_Protection:SRV05-4 U1
