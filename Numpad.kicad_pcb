@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 16)
+    (drawings 17)
     (tracks 521)
     (zones 0)
     (modules 68)
@@ -94,7 +94,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "./gerber"))
+      (outputdirectory "/home/dmitry/Documents/NumpadA/gerber/"))
   )
 
   (net 0 "")
@@ -3319,6 +3319,9 @@
     )
   )
 
+  (gr_text JLCJLCJLCJLC (at 53 164.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
   (gr_text https://b.inexcomp.com (at 98.575 162.75) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.15)))
   )
@@ -3862,7 +3865,7 @@
   (segment (start 85.97 59.5575) (end 85.99 59.5775) (width 0.127) (layer B.Cu) (net 44))
   (segment (start 85.97 58) (end 85.97 59.5575) (width 0.127) (layer B.Cu) (net 44))
 
-  (zone (net 11) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 11) (net_name GND) (layer F.Cu) (tstamp 5E6EA290) (hatch edge 0.508)
     (connect_pads yes (clearance 0.254))
     (min_thickness 0.127)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508) (smoothing fillet) (radius 3.175))
@@ -6056,7 +6059,7 @@
       )
     )
   )
-  (zone (net 11) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 11) (net_name GND) (layer B.Cu) (tstamp 5E6EA28D) (hatch edge 0.508)
     (connect_pads yes (clearance 0.254))
     (min_thickness 0.127)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508) (smoothing fillet) (radius 3.175))
