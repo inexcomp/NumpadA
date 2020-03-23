@@ -898,7 +898,7 @@ U 1 1 5E3C1C9A
 P 8650 5750
 F 0 "J1" H 8622 5774 50  0000 R CNN
 F 1 "SWD" H 8622 5683 50  0000 R CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Horizontal" H 8650 5750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 8650 5750 50  0001 C CNN
 F 3 "~" H 8650 5750 50  0001 C CNN
 	1    8650 5750
 	-1   0    0    1   
