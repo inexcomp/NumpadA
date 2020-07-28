@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name Logo)(type KiCad)(uri /home/dmitry/work/NumpadA)(options "")(descr ""))
-  (lib (name Keebio-Parts)(type KiCad)(uri /home/dmitry/work/NumpadA/Keebio-Parts.pretty)(options "")(descr ""))
+  (lib (name Logo)(type KiCad)(uri ${KIPRJMOD}/Logo)(options "")(descr ""))
+  (lib (name Keebio-Parts)(type KiCad)(uri ${KIPRJMOD}/Keebio-Parts.pretty)(options "")(descr ""))
 )
