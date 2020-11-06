@@ -5,1206 +5,16 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 2
 Title "NumpadA"
-Date "2020-04-06"
-Rev "0.7"
+Date "2020-11-05"
+Rev "0.9"
 Comp "Inexpensive Computers"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 5E67B8E1
-P 9800 650
-F 0 "H1" H 9900 696 50  0000 L CNN
-F 1 "MountingHole" H 9900 605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 9800 650 50  0001 C CNN
-F 3 "~" H 9800 650 50  0001 C CNN
-	1    9800 650 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5E67C9F7
-P 9800 850
-F 0 "H2" H 9900 896 50  0000 L CNN
-F 1 "MountingHole" H 9900 805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 9800 850 50  0001 C CNN
-F 3 "~" H 9800 850 50  0001 C CNN
-	1    9800 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5E67E199
-P 9800 1050
-F 0 "H3" H 9900 1096 50  0000 L CNN
-F 1 "MountingHole" H 9900 1005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 9800 1050 50  0001 C CNN
-F 3 "~" H 9800 1050 50  0001 C CNN
-	1    9800 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 5E67EEB5
-P 9800 1250
-F 0 "H4" H 9900 1296 50  0000 L CNN
-F 1 "MountingHole" H 9900 1205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 9800 1250 50  0001 C CNN
-F 3 "~" H 9800 1250 50  0001 C CNN
-	1    9800 1250
-	1    0    0    -1  
-$EndComp
 Text Notes 2350 800  0    157  ~ 0
 Key Matrix
-$Comp
-L MX_Alps_Hybrid:MX-LED SW_ESC1
-U 1 1 5E92F8E4
-P 1450 1250
-F 0 "SW_ESC1" H 1323 1174 60  0000 R CNN
-F 1 "MX-LED" H 1323 1100 20  0000 R CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 825 1225 60  0001 C CNN
-F 3 "" H 825 1225 60  0001 C CNN
-	1    1450 1250
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 1200 1300 1150
-Wire Wire Line
-	1300 1150 1150 1150
-Wire Wire Line
-	1500 1400 1550 1400
-Wire Wire Line
-	2300 1200 2300 1150
-Wire Wire Line
-	2300 1150 2150 1150
-Wire Wire Line
-	2500 1400 2550 1400
-Wire Wire Line
-	2550 1400 2550 1600
-$Comp
-L MX_Alps_Hybrid:MX-LED SW_FN1
-U 1 1 5EB7DCF8
-P 3450 1250
-F 0 "SW_FN1" H 3322 1174 60  0000 R CNN
-F 1 "MX-LED" H 3322 1100 20  0000 R CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 2825 1225 60  0001 C CNN
-F 3 "" H 2825 1225 60  0001 C CNN
-	1    3450 1250
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 1200 3300 1150
-Wire Wire Line
-	3300 1150 3150 1150
-Wire Wire Line
-	3500 1400 3550 1400
-$Comp
-L MX_Alps_Hybrid:MX-LED SW_BKSP1
-U 1 1 5EB82E93
-P 4450 1250
-F 0 "SW_BKSP1" H 4323 1174 60  0000 R CNN
-F 1 "MX-LED" H 4323 1100 20  0000 R CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 3825 1225 60  0001 C CNN
-F 3 "" H 3825 1225 60  0001 C CNN
-	1    4450 1250
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4300 1200 4300 1150
-Wire Wire Line
-	4300 1150 4150 1150
-Wire Wire Line
-	4500 1400 4550 1400
-Wire Wire Line
-	4550 1400 4550 1600
-$Comp
-L MX_Alps_Hybrid:MX-LED SW_NUMLK1
-U 1 1 5EBD9444
-P 1450 2000
-F 0 "SW_NUMLK1" H 1322 1924 60  0000 R CNN
-F 1 "MX-LED" H 1322 1850 20  0000 R CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 825 1975 60  0001 C CNN
-F 3 "" H 825 1975 60  0001 C CNN
-	1    1450 2000
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 1950 1300 1900
-Wire Wire Line
-	1300 1900 1150 1900
-Wire Wire Line
-	1500 2150 1550 2150
-$Comp
-L MX_Alps_Hybrid:MX-LED SW_SLASH1
-U 1 1 5EBD9455
-P 2450 2000
-F 0 "SW_SLASH1" H 2323 1924 60  0000 R CNN
-F 1 "MX-LED" H 2323 1850 20  0000 R CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 1825 1975 60  0001 C CNN
-F 3 "" H 1825 1975 60  0001 C CNN
-	1    2450 2000
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 1950 2300 1900
-Wire Wire Line
-	2300 1900 2150 1900
-Wire Wire Line
-	2500 2150 2550 2150
-Wire Wire Line
-	2550 2150 2550 2350
-$Comp
-L MX_Alps_Hybrid:MX-LED SW_STAR1
-U 1 1 5EBD9466
-P 3450 2000
-F 0 "SW_STAR1" H 3322 1924 60  0000 R CNN
-F 1 "MX-LED" H 3322 1850 20  0000 R CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 2825 1975 60  0001 C CNN
-F 3 "" H 2825 1975 60  0001 C CNN
-	1    3450 2000
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 1950 3300 1900
-Wire Wire Line
-	3300 1900 3150 1900
-Wire Wire Line
-	3500 2150 3550 2150
-$Comp
-L MX_Alps_Hybrid:MX-LED SW_MINUS1
-U 1 1 5EBD9477
-P 4450 2000
-F 0 "SW_MINUS1" H 4322 1924 60  0000 R CNN
-F 1 "MX-LED" H 4322 1850 20  0000 R CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 3825 1975 60  0001 C CNN
-F 3 "" H 3825 1975 60  0001 C CNN
-	1    4450 2000
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4300 1950 4300 1900
-Wire Wire Line
-	4300 1900 4150 1900
-Wire Wire Line
-	4500 2150 4550 2150
-Wire Wire Line
-	4550 2150 4550 2350
-$Comp
-L MX_Alps_Hybrid:MX-LED SW_7
-U 1 1 5EBE3591
-P 1450 2750
-F 0 "SW_7" H 1322 2674 60  0000 R CNN
-F 1 "MX-LED" H 1322 2600 20  0000 R CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 825 2725 60  0001 C CNN
-F 3 "" H 825 2725 60  0001 C CNN
-	1    1450 2750
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 2700 1300 2650
-Wire Wire Line
-	1300 2650 1150 2650
-Wire Wire Line
-	1500 2900 1550 2900
-$Comp
-L MX_Alps_Hybrid:MX-LED SW_8
-U 1 1 5EBE35A2
-P 2450 2750
-F 0 "SW_8" H 2322 2674 60  0000 R CNN
-F 1 "MX-LED" H 2322 2600 20  0000 R CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 1825 2725 60  0001 C CNN
-F 3 "" H 1825 2725 60  0001 C CNN
-	1    2450 2750
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 2700 2300 2650
-Wire Wire Line
-	2300 2650 2150 2650
-Wire Wire Line
-	2500 2900 2550 2900
-$Comp
-L MX_Alps_Hybrid:MX-LED SW_9
-U 1 1 5EBE35B3
-P 3450 2750
-F 0 "SW_9" H 3322 2674 60  0000 R CNN
-F 1 "MX-LED" H 3322 2600 20  0000 R CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 2825 2725 60  0001 C CNN
-F 3 "" H 2825 2725 60  0001 C CNN
-	1    3450 2750
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 2700 3300 2650
-Wire Wire Line
-	3300 2650 3150 2650
-Wire Wire Line
-	3500 2900 3550 2900
-$Comp
-L MX_Alps_Hybrid:MX-LED SW_PLUS1
-U 1 1 5EBE35C4
-P 4450 2750
-F 0 "SW_PLUS1" H 4322 2674 60  0000 R CNN
-F 1 "MX-LED" H 4322 2600 20  0000 R CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-2U-StabFlip" H 3825 2725 60  0001 C CNN
-F 3 "" H 3825 2725 60  0001 C CNN
-	1    4450 2750
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4300 2700 4300 2650
-Wire Wire Line
-	4300 2650 4150 2650
-Wire Wire Line
-	4500 2900 4550 2900
-$Comp
-L MX_Alps_Hybrid:MX-LED SW_4
-U 1 1 5EBF040F
-P 1450 3500
-F 0 "SW_4" H 1322 3424 60  0000 R CNN
-F 1 "MX-LED" H 1322 3350 20  0000 R CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 825 3475 60  0001 C CNN
-F 3 "" H 825 3475 60  0001 C CNN
-	1    1450 3500
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 3450 1300 3400
-Wire Wire Line
-	1300 3400 1150 3400
-Wire Wire Line
-	1500 3650 1550 3650
-$Comp
-L MX_Alps_Hybrid:MX-LED SW_5
-U 1 1 5EBF0420
-P 2450 3500
-F 0 "SW_5" H 2322 3424 60  0000 R CNN
-F 1 "MX-LED" H 2322 3350 20  0000 R CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 1825 3475 60  0001 C CNN
-F 3 "" H 1825 3475 60  0001 C CNN
-	1    2450 3500
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 3450 2300 3400
-Wire Wire Line
-	2300 3400 2150 3400
-Wire Wire Line
-	2500 3650 2550 3650
-$Comp
-L MX_Alps_Hybrid:MX-LED SW_6
-U 1 1 5EBF0431
-P 3450 3500
-F 0 "SW_6" H 3322 3424 60  0000 R CNN
-F 1 "MX-LED" H 3322 3350 20  0000 R CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 2825 3475 60  0001 C CNN
-F 3 "" H 2825 3475 60  0001 C CNN
-	1    3450 3500
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 3450 3300 3400
-Wire Wire Line
-	3300 3400 3150 3400
-Wire Wire Line
-	3500 3650 3550 3650
-$Comp
-L MX_Alps_Hybrid:MX-LED SW_1
-U 1 1 5EBFD588
-P 1450 4250
-F 0 "SW_1" H 1322 4174 60  0000 R CNN
-F 1 "MX-LED" H 1322 4100 20  0000 R CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 825 4225 60  0001 C CNN
-F 3 "" H 825 4225 60  0001 C CNN
-	1    1450 4250
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 4200 1300 4150
-Wire Wire Line
-	1300 4150 1150 4150
-Wire Wire Line
-	1500 4400 1550 4400
-$Comp
-L MX_Alps_Hybrid:MX-LED SW_2
-U 1 1 5EBFD599
-P 2450 4250
-F 0 "SW_2" H 2322 4174 60  0000 R CNN
-F 1 "MX-LED" H 2322 4100 20  0000 R CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 1825 4225 60  0001 C CNN
-F 3 "" H 1825 4225 60  0001 C CNN
-	1    2450 4250
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 4200 2300 4150
-Wire Wire Line
-	2300 4150 2150 4150
-Wire Wire Line
-	2500 4400 2550 4400
-$Comp
-L MX_Alps_Hybrid:MX-LED SW_3
-U 1 1 5EBFD5AA
-P 3450 4250
-F 0 "SW_3" H 3322 4174 60  0000 R CNN
-F 1 "MX-LED" H 3322 4100 20  0000 R CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 2825 4225 60  0001 C CNN
-F 3 "" H 2825 4225 60  0001 C CNN
-	1    3450 4250
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 4200 3300 4150
-Wire Wire Line
-	3300 4150 3150 4150
-Wire Wire Line
-	3500 4400 3550 4400
-$Comp
-L MX_Alps_Hybrid:MX-LED SW_ENTER1
-U 1 1 5EBFD5BB
-P 4450 4250
-F 0 "SW_ENTER1" H 4323 4174 60  0000 R CNN
-F 1 "MX-LED" H 4323 4100 20  0000 R CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-2U-StabFlip" H 3825 4225 60  0001 C CNN
-F 3 "" H 3825 4225 60  0001 C CNN
-	1    4450 4250
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4300 4200 4300 4150
-Wire Wire Line
-	4300 4150 4150 4150
-Wire Wire Line
-	4500 4400 4550 4400
-$Comp
-L MX_Alps_Hybrid:MX-LED SW_0
-U 1 1 5EC0D31A
-P 1450 5000
-F 0 "SW_0" H 1322 4924 60  0000 R CNN
-F 1 "MX-LED" H 1322 4850 20  0000 R CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-2U-StabFlip" H 825 4975 60  0001 C CNN
-F 3 "" H 825 4975 60  0001 C CNN
-	1    1450 5000
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 4950 1300 4900
-Wire Wire Line
-	1300 4900 1150 4900
-Wire Wire Line
-	1500 5150 1550 5150
-$Comp
-L MX_Alps_Hybrid:MX-LED SW_DOT1
-U 1 1 5EC0D33C
-P 3450 5000
-F 0 "SW_DOT1" H 3322 4924 60  0000 R CNN
-F 1 "MX-LED" H 3322 4850 20  0000 R CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 2825 4975 60  0001 C CNN
-F 3 "" H 2825 4975 60  0001 C CNN
-	1    3450 5000
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 4950 3300 4900
-Wire Wire Line
-	3300 4900 3150 4900
-Wire Wire Line
-	3500 5150 3550 5150
-$Comp
-L MX_Alps_Hybrid:MX-LED SW_TAB1
-U 1 1 5EB79747
-P 2450 1250
-F 0 "SW_TAB1" H 2323 1174 60  0000 R CNN
-F 1 "MX-LED" H 2323 1100 20  0000 R CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 1825 1225 60  0001 C CNN
-F 3 "" H 1825 1225 60  0001 C CNN
-	1    2450 1250
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 1150 1150 1900
-Connection ~ 1150 1900
-Wire Wire Line
-	1150 1900 1150 2650
-Connection ~ 1150 2650
-Wire Wire Line
-	1150 2650 1150 3400
-Connection ~ 1150 3400
-Wire Wire Line
-	1150 3400 1150 4150
-Connection ~ 1150 4150
-Wire Wire Line
-	1150 4150 1150 4900
-Connection ~ 2150 1900
-Wire Wire Line
-	2150 1900 2150 1150
-Connection ~ 2150 2650
-Wire Wire Line
-	2150 2650 2150 1900
-Connection ~ 2150 3400
-Wire Wire Line
-	2150 3400 2150 2650
-Wire Wire Line
-	2150 4150 2150 3400
-Wire Wire Line
-	3150 1150 3150 1900
-Connection ~ 3150 1900
-Wire Wire Line
-	3150 1900 3150 2650
-Connection ~ 3150 2650
-Wire Wire Line
-	3150 2650 3150 3400
-Connection ~ 3150 3400
-Wire Wire Line
-	3150 3400 3150 4150
-Connection ~ 3150 4150
-Wire Wire Line
-	3150 4150 3150 4900
-Connection ~ 4150 1900
-Wire Wire Line
-	4150 1900 4150 1150
-Connection ~ 4150 2650
-Wire Wire Line
-	4150 2650 4150 1900
-Wire Wire Line
-	4150 2650 4150 4150
-Text GLabel 5100 1800 2    50   Output ~ 0
-row1
-Text GLabel 5100 3300 2    50   Output ~ 0
-row3
-Text GLabel 5100 4050 2    50   Output ~ 0
-row4
-Text GLabel 5100 4800 2    50   Output ~ 0
-row5
-Text GLabel 5100 5550 2    50   Output ~ 0
-row6
-Text GLabel 5100 2550 2    50   Output ~ 0
-row2
-Wire Wire Line
-	1150 1050 1150 1150
-Connection ~ 1150 1150
-Wire Wire Line
-	2150 1050 2150 1150
-Connection ~ 2150 1150
-Wire Wire Line
-	3150 1050 3150 1150
-Connection ~ 3150 1150
-Wire Wire Line
-	4150 1050 4150 1150
-Connection ~ 4150 1150
-Wire Wire Line
-	1350 1250 1350 2000
-Connection ~ 1350 2000
-Wire Wire Line
-	1350 2000 1350 2750
-Connection ~ 1350 2750
-Wire Wire Line
-	1350 2750 1350 3500
-Connection ~ 1350 3500
-Wire Wire Line
-	1350 3500 1350 4250
-Connection ~ 1350 4250
-Wire Wire Line
-	1350 4250 1350 5000
-Wire Wire Line
-	2350 4250 2350 3500
-Connection ~ 2350 2000
-Wire Wire Line
-	2350 2000 2350 1250
-Connection ~ 2350 2750
-Wire Wire Line
-	2350 2750 2350 2000
-Connection ~ 2350 3500
-Wire Wire Line
-	2350 3500 2350 2750
-Wire Wire Line
-	3350 1250 3350 2000
-Connection ~ 3350 2000
-Wire Wire Line
-	3350 2000 3350 2750
-Connection ~ 3350 2750
-Wire Wire Line
-	3350 2750 3350 3500
-Connection ~ 3350 3500
-Wire Wire Line
-	3350 3500 3350 4250
-Connection ~ 3350 4250
-Wire Wire Line
-	3350 4250 3350 5000
-Wire Wire Line
-	4350 4250 4350 2750
-Connection ~ 4350 2000
-Wire Wire Line
-	4350 2000 4350 1250
-Connection ~ 4350 2750
-Wire Wire Line
-	4350 2750 4350 2000
-Wire Wire Line
-	2350 4250 2350 5700
-Wire Wire Line
-	2350 5700 1350 5700
-Wire Wire Line
-	1350 5700 1350 5000
-Connection ~ 2350 4250
-Connection ~ 1350 5000
-Wire Wire Line
-	2350 5700 3350 5700
-Wire Wire Line
-	3350 5700 3350 5000
-Connection ~ 2350 5700
-Connection ~ 3350 5000
-Wire Wire Line
-	3350 5700 4350 5700
-Wire Wire Line
-	4350 5700 4350 4250
-Connection ~ 3350 5700
-Connection ~ 4350 4250
-Wire Wire Line
-	1450 4350 2450 4350
-Connection ~ 2450 4350
-Wire Wire Line
-	2450 4350 3450 4350
-Connection ~ 3450 4350
-Connection ~ 2450 3600
-Wire Wire Line
-	2450 3600 3450 3600
-Wire Wire Line
-	1450 2850 2450 2850
-Connection ~ 2450 2850
-Wire Wire Line
-	2450 2850 3450 2850
-Connection ~ 3450 2850
-Wire Wire Line
-	1450 2100 2450 2100
-Connection ~ 2450 2100
-Wire Wire Line
-	2450 2100 3450 2100
-Connection ~ 3450 2100
-Connection ~ 2450 1350
-Wire Wire Line
-	2450 1350 1450 1350
-Connection ~ 3450 1350
-Wire Wire Line
-	3450 1350 2450 1350
-Text GLabel 1150 5700 0    50   Input ~ 0
-LED_MATRIX
-Text GLabel 4150 1050 1    50   Input ~ 0
-col4
-Text GLabel 3150 1050 1    50   Input ~ 0
-col3
-Text GLabel 2150 1050 1    50   Input ~ 0
-col2
-Text GLabel 1150 1050 1    50   Input ~ 0
-col1
-Wire Wire Line
-	1350 5700 1150 5700
-Connection ~ 1350 5700
-$Sheet
-S 4600 7650 1550 150 
-U 5E977C21
-F0 "MCUSupport" 100
-F1 "mcu.sch" 50
-$EndSheet
-$Comp
-L Transistor_FET:AO3401A Q1
-U 1 1 5F1F7401
-P 6650 1400
-F 0 "Q1" H 6855 1446 50  0000 L CNN
-F 1 "AO3401A" H 6855 1355 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6850 1325 50  0001 L CIN
-F 3 "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" H 6650 1400 50  0001 L CNN
-	1    6650 1400
-	1    0    0    -1  
-$EndComp
-Text GLabel 5900 1400 0    50   Input ~ 0
-LED_CONTROL
-$Comp
-L power:+5V #PWR0128
-U 1 1 5F1FE3B6
-P 6750 900
-F 0 "#PWR0128" H 6750 750 50  0001 C CNN
-F 1 "+5V" H 6765 1073 50  0000 C CNN
-F 2 "" H 6750 900 50  0001 C CNN
-F 3 "" H 6750 900 50  0001 C CNN
-	1    6750 900 
-	1    0    0    -1  
-$EndComp
-Text GLabel 6750 1750 3    50   Output ~ 0
-LED_MATRIX
-Wire Wire Line
-	5900 1400 6000 1400
-$Comp
-L Device:R_Small_US R1
-U 1 1 5F2279DB
-P 6000 1200
-F 0 "R1" H 6068 1246 50  0000 L CNN
-F 1 "10K" H 6068 1155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 6000 1200 50  0001 C CNN
-F 3 "~" H 6000 1200 50  0001 C CNN
-	1    6000 1200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6000 1100 6000 1000
-Wire Wire Line
-	6750 1200 6750 1000
-$Comp
-L Device:R_Small_US R2
-U 1 1 5F27C45D
-P 6350 1400
-F 0 "R2" V 6145 1400 50  0000 C CNN
-F 1 "150R" V 6236 1400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 6350 1400 50  0001 C CNN
-F 3 "~" H 6350 1400 50  0001 C CNN
-	1    6350 1400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6000 1300 6000 1400
-Wire Wire Line
-	6000 1400 6250 1400
-Connection ~ 6000 1400
-Wire Wire Line
-	6000 1000 6750 1000
-Wire Wire Line
-	6750 900  6750 1000
-Connection ~ 6750 1000
-Wire Wire Line
-	6750 1750 6750 1600
-$Comp
-L LED:WS2813 D1
-U 1 1 5F314D76
-P 6800 3400
-F 0 "D1" H 7144 3446 50  0000 L CNN
-F 1 "WS2813" H 7144 3355 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 6850 3100 50  0001 L TNN
-F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 6900 3025 50  0001 L TNN
-	1    6800 3400
-	1    0    0    -1  
-$EndComp
-Text GLabel 6300 3400 0    50   Input ~ 0
-BL_CONTROL
-Wire Wire Line
-	6500 3500 6500 3700
-Wire Wire Line
-	6500 3700 6800 3700
-Wire Wire Line
-	6300 3400 6400 3400
-Wire Wire Line
-	6400 3400 6400 3800
-Connection ~ 6400 3400
-Wire Wire Line
-	6400 3400 6500 3400
-$Comp
-L LED:WS2813 D3
-U 1 1 5F78E5EA
-P 7800 3400
-F 0 "D3" H 8144 3446 50  0000 L CNN
-F 1 "WS2813" H 8144 3355 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 7850 3100 50  0001 L TNN
-F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 7900 3025 50  0001 L TNN
-	1    7800 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7200 3300 7200 3700
-Wire Wire Line
-	7200 3700 6800 3700
-Connection ~ 6800 3700
-Wire Wire Line
-	7800 3700 7200 3700
-Connection ~ 7200 3700
-Wire Wire Line
-	7100 3400 7400 3400
-Wire Wire Line
-	6700 3100 6700 2800
-Wire Wire Line
-	7500 3500 7300 3500
-Wire Wire Line
-	7300 3500 7300 3800
-Wire Wire Line
-	7300 3800 6400 3800
-Connection ~ 7800 3700
-Wire Wire Line
-	7400 3800 7400 3400
-Connection ~ 7400 3400
-Wire Wire Line
-	7400 3400 7500 3400
-Wire Wire Line
-	7700 3100 7700 2800
-Connection ~ 7700 2800
-$Comp
-L LED:WS2813 D5
-U 1 1 5F8DA42C
-P 8800 3400
-F 0 "D5" H 9144 3446 50  0000 L CNN
-F 1 "WS2813" H 9144 3355 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 8850 3100 50  0001 L TNN
-F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 8900 3025 50  0001 L TNN
-	1    8800 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8700 3100 8700 2800
-Connection ~ 8700 2800
-$Comp
-L LED:WS2813 D2
-U 1 1 5F9001B2
-P 6800 4600
-F 0 "D2" H 7144 4646 50  0000 L CNN
-F 1 "WS2813" H 7144 4555 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 6850 4300 50  0001 L TNN
-F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 6900 4225 50  0001 L TNN
-	1    6800 4600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6400 4600 6400 5000
-Wire Wire Line
-	6400 4600 6500 4600
-$Comp
-L LED:WS2813 D4
-U 1 1 5F9001BE
-P 7800 4600
-F 0 "D4" H 8144 4646 50  0000 L CNN
-F 1 "WS2813" H 8144 4555 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 7850 4300 50  0001 L TNN
-F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 7900 4225 50  0001 L TNN
-	1    7800 4600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7100 4600 7400 4600
-Wire Wire Line
-	8500 4600 8100 4600
-Wire Wire Line
-	7500 4700 7300 4700
-Wire Wire Line
-	7300 4700 7300 5000
-Wire Wire Line
-	7300 5000 6400 5000
-Connection ~ 7800 4900
-Wire Wire Line
-	8500 4700 8400 4700
-Wire Wire Line
-	8400 4700 8400 5000
-Wire Wire Line
-	8400 5000 7400 5000
-Wire Wire Line
-	7400 5000 7400 4600
-Connection ~ 7400 4600
-Wire Wire Line
-	7400 4600 7500 4600
-$Comp
-L LED:WS2813 D6
-U 1 1 5F900200
-P 8800 4600
-F 0 "D6" H 9144 4646 50  0000 L CNN
-F 1 "WS2813" H 9144 4555 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 8850 4300 50  0001 L TNN
-F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 8900 4225 50  0001 L TNN
-	1    8800 4600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9100 3400 9100 4100
-Wire Wire Line
-	9100 4100 6400 4100
-Wire Wire Line
-	8500 3400 8400 3400
-Wire Wire Line
-	7400 3800 8300 3800
-Wire Wire Line
-	8300 3800 8300 3500
-Wire Wire Line
-	8300 3500 8500 3500
-Wire Wire Line
-	8400 3400 8400 4000
-Wire Wire Line
-	8400 4000 6300 4000
-Wire Wire Line
-	6300 4700 6500 4700
-Connection ~ 8400 3400
-Wire Wire Line
-	8400 3400 8100 3400
-Wire Wire Line
-	6500 3700 6200 3700
-Wire Wire Line
-	6200 4900 6800 4900
-Connection ~ 6500 3700
-Connection ~ 6800 4900
-Wire Wire Line
-	9550 4200 9550 2800
-$Comp
-L power:+5V #PWR0129
-U 1 1 5F9C576E
-P 6700 2800
-F 0 "#PWR0129" H 6700 2650 50  0001 C CNN
-F 1 "+5V" H 6715 2973 50  0000 C CNN
-F 2 "" H 6700 2800 50  0001 C CNN
-F 3 "" H 6700 2800 50  0001 C CNN
-	1    6700 2800
-	1    0    0    -1  
-$EndComp
-Connection ~ 6700 2800
-$Comp
-L power:GND #PWR0130
-U 1 1 5F9C6570
-P 6200 4900
-F 0 "#PWR0130" H 6200 4650 50  0001 C CNN
-F 1 "GND" H 6205 4727 50  0000 C CNN
-F 2 "" H 6200 4900 50  0001 C CNN
-F 3 "" H 6200 4900 50  0001 C CNN
-	1    6200 4900
-	1    0    0    -1  
-$EndComp
-NoConn ~ 9100 4600
-Wire Wire Line
-	6700 2800 7700 2800
-Wire Wire Line
-	7700 2800 8700 2800
-Wire Wire Line
-	7800 3700 8800 3700
-Wire Wire Line
-	8700 2800 9550 2800
-Wire Wire Line
-	6800 4900 7800 4900
-Wire Wire Line
-	7800 4900 8800 4900
-Wire Wire Line
-	6700 4200 7700 4200
-Wire Wire Line
-	6700 4200 6700 4300
-Wire Wire Line
-	7700 4300 7700 4200
-Connection ~ 7700 4200
-Wire Wire Line
-	7700 4200 8700 4200
-Wire Wire Line
-	8700 4300 8700 4200
-Connection ~ 8700 4200
-Wire Wire Line
-	8700 4200 9550 4200
-Wire Wire Line
-	6400 4100 6400 4600
-Connection ~ 6400 4600
-Wire Wire Line
-	6300 4700 6300 4000
-Wire Wire Line
-	6200 3700 6200 4900
-Connection ~ 6200 4900
-NoConn ~ 8800 4300
-NoConn ~ 7800 4300
-NoConn ~ 6800 4300
-NoConn ~ 6800 3100
-NoConn ~ 7800 3100
-NoConn ~ 8800 3100
-$Comp
-L Diode:BAT54C D7
-U 1 1 5FC9CF27
-P 1800 1600
-F 0 "D7" H 1800 1825 50  0000 C CNN
-F 1 "BAT54C" H 1800 1734 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 1875 1725 50  0001 L CNN
-F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 1720 1600 50  0001 C CNN
-	1    1800 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1450 3600 2450 3600
-Wire Wire Line
-	1550 1400 1550 1550
-Wire Wire Line
-	1550 1550 1500 1550
-Wire Wire Line
-	1500 1550 1500 1600
-Wire Wire Line
-	2100 1600 2550 1600
-Wire Wire Line
-	1800 1800 3800 1800
-Wire Wire Line
-	3450 1350 4450 1350
-Wire Wire Line
-	3450 2100 4450 2100
-Wire Wire Line
-	3450 2850 4450 2850
-Wire Wire Line
-	3450 4350 4450 4350
-Wire Wire Line
-	1450 5100 1050 5100
-Wire Wire Line
-	1050 5100 1050 4350
-Wire Wire Line
-	1050 4350 1450 4350
-Connection ~ 1450 5100
-Connection ~ 1450 4350
-Wire Wire Line
-	1050 4350 1050 3600
-Wire Wire Line
-	1050 3600 1450 3600
-Connection ~ 1050 4350
-Connection ~ 1450 3600
-Wire Wire Line
-	1050 3600 1050 2850
-Wire Wire Line
-	1050 2850 1450 2850
-Connection ~ 1050 3600
-Connection ~ 1450 2850
-Wire Wire Line
-	1050 2850 1050 2100
-Wire Wire Line
-	1050 2100 1450 2100
-Connection ~ 1050 2850
-Connection ~ 1450 2100
-Wire Wire Line
-	1050 2100 1050 1350
-Wire Wire Line
-	1050 1350 1450 1350
-Connection ~ 1050 2100
-Connection ~ 1450 1350
-$Comp
-L power:GND #PWR0104
-U 1 1 5F2D522A
-P 1050 5100
-F 0 "#PWR0104" H 1050 4850 50  0001 C CNN
-F 1 "GND" H 1055 4927 50  0000 C CNN
-F 2 "" H 1050 5100 50  0001 C CNN
-F 3 "" H 1050 5100 50  0001 C CNN
-	1    1050 5100
-	1    0    0    -1  
-$EndComp
-Connection ~ 1050 5100
-$Comp
-L Diode:BAT54C D13
-U 1 1 5FD63AC8
-P 3800 1600
-F 0 "D13" H 3800 1825 50  0000 C CNN
-F 1 "BAT54C" H 3800 1734 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3875 1725 50  0001 L CNN
-F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 3720 1600 50  0001 C CNN
-	1    3800 1600
-	1    0    0    -1  
-$EndComp
-Connection ~ 3800 1800
-Wire Wire Line
-	3500 1600 3500 1550
-Wire Wire Line
-	3500 1550 3550 1550
-Wire Wire Line
-	3550 1550 3550 1400
-Wire Wire Line
-	1450 5100 3450 5100
-Wire Wire Line
-	4550 1600 4100 1600
-$Comp
-L Diode:BAT54C D8
-U 1 1 5FD90637
-P 1800 2350
-F 0 "D8" H 1800 2575 50  0000 C CNN
-F 1 "BAT54C" H 1800 2484 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 1875 2475 50  0001 L CNN
-F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 1720 2350 50  0001 C CNN
-	1    1800 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 2350 1500 2300
-Wire Wire Line
-	1500 2300 1550 2300
-Wire Wire Line
-	1550 2300 1550 2150
-Wire Wire Line
-	2100 2350 2550 2350
-Wire Wire Line
-	1800 2550 3800 2550
-$Comp
-L Diode:BAT54C D14
-U 1 1 5FDD10F8
-P 3800 2350
-F 0 "D14" H 3800 2575 50  0000 C CNN
-F 1 "BAT54C" H 3800 2484 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3875 2475 50  0001 L CNN
-F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 3720 2350 50  0001 C CNN
-	1    3800 2350
-	1    0    0    -1  
-$EndComp
-Connection ~ 3800 2550
-Wire Wire Line
-	3500 2350 3500 2300
-Wire Wire Line
-	3500 2300 3550 2300
-Wire Wire Line
-	3550 2300 3550 2150
-Wire Wire Line
-	4100 2350 4550 2350
-Wire Wire Line
-	3800 2550 5100 2550
-$Comp
-L Diode:BAT54C D9
-U 1 1 5FDFC471
-P 1800 3100
-F 0 "D9" H 1800 3325 50  0000 C CNN
-F 1 "BAT54C" H 1800 3234 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 1875 3225 50  0001 L CNN
-F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 1720 3100 50  0001 C CNN
-	1    1800 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 3100 1500 3050
-Wire Wire Line
-	1500 3050 1550 3050
-Wire Wire Line
-	1550 3050 1550 2900
-Wire Wire Line
-	1800 3300 3800 3300
-Wire Wire Line
-	2100 3100 2550 3100
-Wire Wire Line
-	2550 3100 2550 2900
-$Comp
-L Diode:BAT54C D15
-U 1 1 5FE3710F
-P 3800 3100
-F 0 "D15" H 3800 3325 50  0000 C CNN
-F 1 "BAT54C" H 3800 3234 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3875 3225 50  0001 L CNN
-F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 3720 3100 50  0001 C CNN
-	1    3800 3100
-	1    0    0    -1  
-$EndComp
-Connection ~ 3800 3300
-Wire Wire Line
-	3800 3300 5100 3300
-Wire Wire Line
-	3500 3100 3500 3050
-Wire Wire Line
-	3500 3050 3550 3050
-Wire Wire Line
-	3550 3050 3550 2900
-Wire Wire Line
-	4100 3100 4550 3100
-Wire Wire Line
-	4550 3100 4550 2900
-$Comp
-L Diode:BAT54C D10
-U 1 1 5FE60E31
-P 1800 3850
-F 0 "D10" H 1800 4075 50  0000 C CNN
-F 1 "BAT54C" H 1800 3984 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 1875 3975 50  0001 L CNN
-F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 1720 3850 50  0001 C CNN
-	1    1800 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 3850 1500 3800
-Wire Wire Line
-	1500 3800 1550 3800
-Wire Wire Line
-	1550 3800 1550 3650
-Wire Wire Line
-	1800 4050 3800 4050
-Wire Wire Line
-	2100 3850 2550 3850
-Wire Wire Line
-	2550 3850 2550 3650
-$Comp
-L Diode:BAT54C D16
-U 1 1 5FE9C2FC
-P 3800 3850
-F 0 "D16" H 3800 4075 50  0000 C CNN
-F 1 "BAT54C" H 3800 3984 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3875 3975 50  0001 L CNN
-F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 3720 3850 50  0001 C CNN
-	1    3800 3850
-	1    0    0    -1  
-$EndComp
-Connection ~ 3800 4050
-Wire Wire Line
-	3800 4050 5100 4050
-Wire Wire Line
-	3500 3850 3500 3800
-Wire Wire Line
-	3500 3800 3550 3800
-Wire Wire Line
-	3550 3800 3550 3650
-$Comp
-L Diode:BAT54C D11
-U 1 1 5FEB10DE
-P 1800 4600
-F 0 "D11" H 1800 4825 50  0000 C CNN
-F 1 "BAT54C" H 1800 4734 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 1875 4725 50  0001 L CNN
-F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 1720 4600 50  0001 C CNN
-	1    1800 4600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 4600 1500 4550
-Wire Wire Line
-	1500 4550 1550 4550
-Wire Wire Line
-	1550 4550 1550 4400
-Wire Wire Line
-	1800 4800 3800 4800
-Wire Wire Line
-	2100 4600 2550 4600
-Wire Wire Line
-	2550 4600 2550 4400
-$Comp
-L Diode:BAT54C D17
-U 1 1 5FEEB2B3
-P 3800 4600
-F 0 "D17" H 3800 4825 50  0000 C CNN
-F 1 "BAT54C" H 3800 4734 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3875 4725 50  0001 L CNN
-F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 3720 4600 50  0001 C CNN
-	1    3800 4600
-	1    0    0    -1  
-$EndComp
-Connection ~ 3800 4800
-Wire Wire Line
-	3800 4800 5100 4800
-Wire Wire Line
-	3500 4600 3500 4550
-Wire Wire Line
-	3500 4550 3550 4550
-Wire Wire Line
-	3550 4550 3550 4400
-Wire Wire Line
-	4100 4600 4550 4600
-Wire Wire Line
-	4550 4600 4550 4400
-$Comp
-L Diode:BAT54C D12
-U 1 1 5FF13909
-P 1800 5350
-F 0 "D12" H 1800 5575 50  0000 C CNN
-F 1 "BAT54C" H 1800 5484 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 1875 5475 50  0001 L CNN
-F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 1720 5350 50  0001 C CNN
-	1    1800 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 5350 1500 5300
-Wire Wire Line
-	1500 5300 1550 5300
-Wire Wire Line
-	1550 5300 1550 5150
-Wire Wire Line
-	1800 5550 5100 5550
-Wire Wire Line
-	2100 5350 3550 5350
-Wire Wire Line
-	3550 5350 3550 5150
-NoConn ~ 4100 3850
-Wire Wire Line
-	3800 1800 5100 1800
 $Comp
 L Graphic:SYM_Arrow_Small #SYM2
 U 1 1 6000263B
@@ -1227,4 +37,1305 @@ F 3 "~" H 7950 1400 50  0001 C CNN
 	1    7950 1400
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 4600 7650 1550 150 
+U 5E977C21
+F0 "MCUSupport" 100
+F1 "mcu.sch" 50
+$EndSheet
+$Comp
+L Transistor_FET:AO3401A Q1
+U 1 1 5F1F7401
+P 9850 5850
+F 0 "Q1" H 10055 5896 50  0000 L CNN
+F 1 "AO3401A" H 10055 5805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10050 5775 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" H 9850 5850 50  0001 L CNN
+F 4 "C15127" H 9850 5850 50  0001 C CNN "LCSC"
+	1    9850 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 9100 5850 0    50   Input ~ 0
+LED_CONTROL
+$Comp
+L power:+5V #PWR02
+U 1 1 5F1FE3B6
+P 9950 5350
+F 0 "#PWR02" H 9950 5200 50  0001 C CNN
+F 1 "+5V" H 9965 5523 50  0000 C CNN
+F 2 "" H 9950 5350 50  0001 C CNN
+F 3 "" H 9950 5350 50  0001 C CNN
+	1    9950 5350
+	1    0    0    -1  
+$EndComp
+Text GLabel 9950 6200 3    50   Output ~ 0
+LED_MATRIX
+Wire Wire Line
+	9100 5850 9200 5850
+$Comp
+L Device:R_Small_US R23
+U 1 1 5F2279DB
+P 9200 5650
+F 0 "R23" H 9268 5696 50  0000 L CNN
+F 1 "10K" H 9268 5605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9200 5650 50  0001 C CNN
+F 3 "~" H 9200 5650 50  0001 C CNN
+F 4 "C25744" H 9200 5650 50  0001 C CNN "LCSC"
+	1    9200 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 5550 9200 5450
+Wire Wire Line
+	9950 5650 9950 5450
+$Comp
+L Device:R_Small_US R24
+U 1 1 5F27C45D
+P 9550 5850
+F 0 "R24" V 9345 5850 50  0000 C CNN
+F 1 "150R" V 9436 5850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9550 5850 50  0001 C CNN
+F 3 "~" H 9550 5850 50  0001 C CNN
+F 4 "C25082" H 9550 5850 50  0001 C CNN "LCSC"
+	1    9550 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9200 5750 9200 5850
+Wire Wire Line
+	9200 5850 9450 5850
+Connection ~ 9200 5850
+Wire Wire Line
+	9200 5450 9950 5450
+Wire Wire Line
+	9950 5350 9950 5450
+Connection ~ 9950 5450
+Wire Wire Line
+	9950 6200 9950 6050
+$Comp
+L MX_Alps_Hybrid:MX-LED SW_ESC1
+U 1 1 5E92F8E4
+P 1750 1400
+F 0 "SW_ESC1" H 1623 1324 60  0000 R CNN
+F 1 "MX-LED" H 1623 1250 20  0000 R CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 1125 1375 60  0001 C CNN
+F 3 "" H 1125 1375 60  0001 C CNN
+	1    1750 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-LED SW_FN1
+U 1 1 5EB7DCF8
+P 3750 1400
+F 0 "SW_FN1" H 3622 1324 60  0000 R CNN
+F 1 "MX-LED" H 3622 1250 20  0000 R CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 3125 1375 60  0001 C CNN
+F 3 "" H 3125 1375 60  0001 C CNN
+	1    3750 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-LED SW_BKSP1
+U 1 1 5EB82E93
+P 4750 1400
+F 0 "SW_BKSP1" H 4623 1324 60  0000 R CNN
+F 1 "MX-LED" H 4623 1250 20  0000 R CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 4125 1375 60  0001 C CNN
+F 3 "" H 4125 1375 60  0001 C CNN
+	1    4750 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-LED SW_NUMLK1
+U 1 1 5EBD9444
+P 1750 2150
+F 0 "SW_NUMLK1" H 1622 2074 60  0000 R CNN
+F 1 "MX-LED" H 1622 2000 20  0000 R CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 1125 2125 60  0001 C CNN
+F 3 "" H 1125 2125 60  0001 C CNN
+	1    1750 2150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-LED SW_SLASH1
+U 1 1 5EBD9455
+P 2750 2150
+F 0 "SW_SLASH1" H 2623 2074 60  0000 R CNN
+F 1 "MX-LED" H 2623 2000 20  0000 R CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 2125 2125 60  0001 C CNN
+F 3 "" H 2125 2125 60  0001 C CNN
+	1    2750 2150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-LED SW_STAR1
+U 1 1 5EBD9466
+P 3750 2150
+F 0 "SW_STAR1" H 3622 2074 60  0000 R CNN
+F 1 "MX-LED" H 3622 2000 20  0000 R CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 3125 2125 60  0001 C CNN
+F 3 "" H 3125 2125 60  0001 C CNN
+	1    3750 2150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-LED SW_MINUS1
+U 1 1 5EBD9477
+P 4750 2150
+F 0 "SW_MINUS1" H 4622 2074 60  0000 R CNN
+F 1 "MX-LED" H 4622 2000 20  0000 R CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 4125 2125 60  0001 C CNN
+F 3 "" H 4125 2125 60  0001 C CNN
+	1    4750 2150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-LED SW_1
+U 1 1 5EBE3591
+P 1750 2900
+F 0 "SW_1" H 1622 2824 60  0000 R CNN
+F 1 "MX-LED" H 1622 2750 20  0000 R CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 1125 2875 60  0001 C CNN
+F 3 "" H 1125 2875 60  0001 C CNN
+	1    1750 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-LED SW_PLUS1
+U 1 1 5EBE35C4
+P 4750 2900
+F 0 "SW_PLUS1" H 4622 2824 60  0000 R CNN
+F 1 "MX-LED" H 4622 2750 20  0000 R CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-2U-StabFlip" H 4125 2875 60  0001 C CNN
+F 3 "" H 4125 2875 60  0001 C CNN
+	1    4750 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-LED SW_4
+U 1 1 5EBF040F
+P 1750 3650
+F 0 "SW_4" H 1622 3574 60  0000 R CNN
+F 1 "MX-LED" H 1622 3500 20  0000 R CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 1125 3625 60  0001 C CNN
+F 3 "" H 1125 3625 60  0001 C CNN
+	1    1750 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-LED SW_5
+U 1 1 5EBF0420
+P 2750 3650
+F 0 "SW_5" H 2622 3574 60  0000 R CNN
+F 1 "MX-LED" H 2622 3500 20  0000 R CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 2125 3625 60  0001 C CNN
+F 3 "" H 2125 3625 60  0001 C CNN
+	1    2750 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-LED SW_6
+U 1 1 5EBF0431
+P 3750 3650
+F 0 "SW_6" H 3622 3574 60  0000 R CNN
+F 1 "MX-LED" H 3622 3500 20  0000 R CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 3125 3625 60  0001 C CNN
+F 3 "" H 3125 3625 60  0001 C CNN
+	1    3750 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-LED SW_7
+U 1 1 5EBFD588
+P 1750 4400
+F 0 "SW_7" H 1622 4324 60  0000 R CNN
+F 1 "MX-LED" H 1622 4250 20  0000 R CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 1125 4375 60  0001 C CNN
+F 3 "" H 1125 4375 60  0001 C CNN
+	1    1750 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-LED SW_9
+U 1 1 5EBFD5AA
+P 3750 4400
+F 0 "SW_9" H 3622 4324 60  0000 R CNN
+F 1 "MX-LED" H 3622 4250 20  0000 R CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 3125 4375 60  0001 C CNN
+F 3 "" H 3125 4375 60  0001 C CNN
+	1    3750 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-LED SW_ENTER1
+U 1 1 5EBFD5BB
+P 4750 4400
+F 0 "SW_ENTER1" H 4623 4324 60  0000 R CNN
+F 1 "MX-LED" H 4623 4250 20  0000 R CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-2U-StabFlip" H 4125 4375 60  0001 C CNN
+F 3 "" H 4125 4375 60  0001 C CNN
+	1    4750 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-LED SW_10
+U 1 1 5EC0D31A
+P 1750 5150
+F 0 "SW_10" H 1622 5074 60  0000 R CNN
+F 1 "MX-LED" H 1622 5000 20  0000 R CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-2U-StabFlip" H 1125 5125 60  0001 C CNN
+F 3 "" H 1125 5125 60  0001 C CNN
+	1    1750 5150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-LED SW_DOT1
+U 1 1 5EC0D33C
+P 3750 5150
+F 0 "SW_DOT1" H 3622 5074 60  0000 R CNN
+F 1 "MX-LED" H 3622 5000 20  0000 R CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 3125 5125 60  0001 C CNN
+F 3 "" H 3125 5125 60  0001 C CNN
+	1    3750 5150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 5300 3850 5300
+$Comp
+L MX_Alps_Hybrid:MX-LED SW_TAB1
+U 1 1 5EB79747
+P 2750 1400
+F 0 "SW_TAB1" H 2623 1324 60  0000 R CNN
+F 1 "MX-LED" H 2623 1250 20  0000 R CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 2125 1375 60  0001 C CNN
+F 3 "" H 2125 1375 60  0001 C CNN
+	1    2750 1400
+	-1   0    0    -1  
+$EndComp
+Text GLabel 4600 1050 1    50   Input ~ 0
+col4
+Text GLabel 3600 1050 1    50   Input ~ 0
+col3
+Text GLabel 2600 1050 1    50   Input ~ 0
+col2
+Text GLabel 1600 1050 1    50   Input ~ 0
+col1
+$Comp
+L power:GND #PWR01
+U 1 1 5F2D522A
+P 5500 5250
+F 0 "#PWR01" H 5500 5000 50  0001 C CNN
+F 1 "GND" H 5505 5077 50  0000 C CNN
+F 2 "" H 5500 5250 50  0001 C CNN
+F 3 "" H 5500 5250 50  0001 C CNN
+	1    5500 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-LED SW_8
+U 1 1 5EBFD599
+P 2750 4400
+F 0 "SW_8" H 2622 4324 60  0000 R CNN
+F 1 "MX-LED" H 2622 4250 20  0000 R CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 2125 4375 60  0001 C CNN
+F 3 "" H 2125 4375 60  0001 C CNN
+	1    2750 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-LED SW_3
+U 1 1 5EBE35B3
+P 3750 2900
+F 0 "SW_3" H 3622 2824 60  0000 R CNN
+F 1 "MX-LED" H 3622 2750 20  0000 R CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 3125 2875 60  0001 C CNN
+F 3 "" H 3125 2875 60  0001 C CNN
+	1    3750 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-LED SW_2
+U 1 1 5EBE35A2
+P 2750 2900
+F 0 "SW_2" H 2622 2824 60  0000 R CNN
+F 1 "MX-LED" H 2622 2750 20  0000 R CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U" H 2125 2875 60  0001 C CNN
+F 3 "" H 2125 2875 60  0001 C CNN
+	1    2750 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT54C D1
+U 1 1 5FC9CF27
+P 2400 1750
+F 0 "D1" H 2400 1975 50  0000 C CNN
+F 1 "BAT54C" H 2400 1884 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2475 1875 50  0001 L CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 2320 1750 50  0001 C CNN
+F 4 "C375703" H 2400 1750 50  0001 C CNN "LCSC"
+	1    2400 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1350 1600 2100
+Connection ~ 1600 2100
+Wire Wire Line
+	1600 2100 1600 2850
+Connection ~ 1600 2850
+Wire Wire Line
+	1600 2850 1600 3600
+Connection ~ 1600 3600
+Wire Wire Line
+	1600 3600 1600 4350
+Connection ~ 1600 4350
+Wire Wire Line
+	1600 4350 1600 5100
+Wire Wire Line
+	2600 1350 2600 2100
+Connection ~ 2600 2100
+Wire Wire Line
+	2600 2100 2600 2850
+Connection ~ 2600 2850
+Wire Wire Line
+	2600 2850 2600 3600
+Connection ~ 2600 3600
+Wire Wire Line
+	2600 3600 2600 4350
+Wire Wire Line
+	3600 5100 3600 4350
+Connection ~ 3600 2100
+Wire Wire Line
+	3600 2100 3600 1350
+Connection ~ 3600 2850
+Wire Wire Line
+	3600 2850 3600 2100
+Connection ~ 3600 3600
+Wire Wire Line
+	3600 3600 3600 2850
+Connection ~ 3600 4350
+Wire Wire Line
+	3600 4350 3600 3600
+Wire Wire Line
+	4600 1350 4600 2100
+Connection ~ 4600 2100
+Wire Wire Line
+	4600 2100 4600 2850
+Connection ~ 4600 2850
+Wire Wire Line
+	4600 2850 4600 4350
+Wire Wire Line
+	1800 1550 1800 1750
+Wire Wire Line
+	1800 1750 2100 1750
+Wire Wire Line
+	2700 1750 2800 1750
+Wire Wire Line
+	2800 1750 2800 1550
+$Comp
+L Diode:BAT54C D2
+U 1 1 602A08F0
+P 4400 1750
+F 0 "D2" H 4400 1975 50  0000 C CNN
+F 1 "BAT54C" H 4400 1884 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4475 1875 50  0001 L CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 4320 1750 50  0001 C CNN
+F 4 "C375703" H 4400 1750 50  0001 C CNN "LCSC"
+	1    4400 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1550 3800 1750
+Wire Wire Line
+	3800 1750 4100 1750
+Wire Wire Line
+	4700 1750 4800 1750
+Wire Wire Line
+	4800 1750 4800 1550
+Wire Wire Line
+	2400 1950 4400 1950
+$Comp
+L Diode:BAT54C D3
+U 1 1 602AB421
+P 2400 2500
+F 0 "D3" H 2400 2725 50  0000 C CNN
+F 1 "BAT54C" H 2400 2634 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2475 2625 50  0001 L CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 2320 2500 50  0001 C CNN
+F 4 "C375703" H 2400 2500 50  0001 C CNN "LCSC"
+	1    2400 2500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2500 2100 2500
+Wire Wire Line
+	2700 2500 2800 2500
+Wire Wire Line
+	2800 2500 2800 2300
+$Comp
+L Diode:BAT54C D4
+U 1 1 602B25C2
+P 4400 2500
+F 0 "D4" H 4400 2725 50  0000 C CNN
+F 1 "BAT54C" H 4400 2634 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4475 2625 50  0001 L CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 4320 2500 50  0001 C CNN
+F 4 "C375703" H 4400 2500 50  0001 C CNN "LCSC"
+	1    4400 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2300 3800 2500
+Wire Wire Line
+	3800 2500 4100 2500
+Wire Wire Line
+	4700 2500 4800 2500
+Wire Wire Line
+	4800 2500 4800 2300
+Wire Wire Line
+	2400 2700 4400 2700
+$Comp
+L Diode:BAT54C D5
+U 1 1 602BCB7D
+P 2400 3250
+F 0 "D5" H 2400 3475 50  0000 C CNN
+F 1 "BAT54C" H 2400 3384 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2475 3375 50  0001 L CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 2320 3250 50  0001 C CNN
+F 4 "C375703" H 2400 3250 50  0001 C CNN "LCSC"
+	1    2400 3250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 3050 1800 3250
+Wire Wire Line
+	1800 3250 2100 3250
+Wire Wire Line
+	2700 3250 2800 3250
+Wire Wire Line
+	2800 3250 2800 3050
+$Comp
+L Diode:BAT54C D6
+U 1 1 602C4D7D
+P 4400 3250
+F 0 "D6" H 4400 3475 50  0000 C CNN
+F 1 "BAT54C" H 4400 3384 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4475 3375 50  0001 L CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 4320 3250 50  0001 C CNN
+F 4 "C375703" H 4400 3250 50  0001 C CNN "LCSC"
+	1    4400 3250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3050 3800 3250
+Wire Wire Line
+	3800 3250 4100 3250
+Wire Wire Line
+	4700 3250 4800 3250
+Wire Wire Line
+	4800 3250 4800 3050
+$Comp
+L Diode:BAT54C D7
+U 1 1 602CFEAC
+P 2400 4000
+F 0 "D7" H 2400 4225 50  0000 C CNN
+F 1 "BAT54C" H 2400 4134 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2475 4125 50  0001 L CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 2320 4000 50  0001 C CNN
+F 4 "C375703" H 2400 4000 50  0001 C CNN "LCSC"
+	1    2400 4000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 3800 1800 4000
+Wire Wire Line
+	1800 4000 2100 4000
+Wire Wire Line
+	2700 4000 2800 4000
+Wire Wire Line
+	2800 4000 2800 3800
+$Comp
+L Diode:BAT54C D8
+U 1 1 602D8C2F
+P 4400 4000
+F 0 "D8" H 4400 4225 50  0000 C CNN
+F 1 "BAT54C" H 4400 4134 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4475 4125 50  0001 L CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 4320 4000 50  0001 C CNN
+F 4 "C375703" H 4400 4000 50  0001 C CNN "LCSC"
+	1    4400 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3800 3800 4000
+Wire Wire Line
+	3800 4000 4100 4000
+NoConn ~ 4700 4000
+$Comp
+L Diode:BAT54C D9
+U 1 1 602E3455
+P 2400 4750
+F 0 "D9" H 2400 4975 50  0000 C CNN
+F 1 "BAT54C" H 2400 4884 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2475 4875 50  0001 L CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 2320 4750 50  0001 C CNN
+F 4 "C375703" H 2400 4750 50  0001 C CNN "LCSC"
+	1    2400 4750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 4550 1800 4750
+Wire Wire Line
+	1800 4750 2100 4750
+Wire Wire Line
+	2700 4750 2800 4750
+Wire Wire Line
+	2800 4750 2800 4550
+$Comp
+L Diode:BAT54C D10
+U 1 1 602ED768
+P 4400 4750
+F 0 "D10" H 4400 4975 50  0000 C CNN
+F 1 "BAT54C" H 4400 4884 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4475 4875 50  0001 L CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 4320 4750 50  0001 C CNN
+F 4 "C375703" H 4400 4750 50  0001 C CNN "LCSC"
+	1    4400 4750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4550 3800 4750
+Wire Wire Line
+	3800 4750 4100 4750
+Wire Wire Line
+	4700 4750 4800 4750
+Wire Wire Line
+	4800 4750 4800 4550
+$Comp
+L Diode:BAT54C D11
+U 1 1 602F8C88
+P 2400 5500
+F 0 "D11" H 2400 5725 50  0000 C CNN
+F 1 "BAT54C" H 2400 5634 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2475 5625 50  0001 L CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 2320 5500 50  0001 C CNN
+F 4 "C375703" H 2400 5500 50  0001 C CNN "LCSC"
+	1    2400 5500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 5300 1800 5500
+Wire Wire Line
+	1800 5500 2100 5500
+Wire Wire Line
+	2700 5500 3850 5500
+Wire Wire Line
+	3850 5500 3850 5300
+Wire Wire Line
+	4400 3450 2400 3450
+Wire Wire Line
+	2400 4200 4400 4200
+Wire Wire Line
+	2400 4950 4400 4950
+Connection ~ 1600 1350
+Connection ~ 2600 1350
+Connection ~ 3600 1350
+Connection ~ 4600 1350
+$Comp
+L Device:R_Small_US R1
+U 1 1 603457D6
+P 1400 1400
+F 0 "R1" V 1195 1400 50  0000 C CNN
+F 1 "470R" V 1286 1400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1400 1400 50  0001 C CNN
+F 3 "~" H 1400 1400 50  0001 C CNN
+F 4 "C17710" H 1400 1400 50  0001 C CNN "LCSC"
+	1    1400 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 1400 1650 1400
+$Comp
+L Device:R_Small_US R5
+U 1 1 6034F34C
+P 1400 2150
+F 0 "R5" V 1195 2150 50  0000 C CNN
+F 1 "470R" V 1286 2150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1400 2150 50  0001 C CNN
+F 3 "~" H 1400 2150 50  0001 C CNN
+F 4 "C17710" H 1400 2150 50  0001 C CNN "LCSC"
+	1    1400 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R9
+U 1 1 6034F83C
+P 1400 2900
+F 0 "R9" V 1195 2900 50  0000 C CNN
+F 1 "470R" V 1286 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1400 2900 50  0001 C CNN
+F 3 "~" H 1400 2900 50  0001 C CNN
+F 4 "C17710" H 1400 2900 50  0001 C CNN "LCSC"
+	1    1400 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R13
+U 1 1 60350F14
+P 1400 3650
+F 0 "R13" V 1195 3650 50  0000 C CNN
+F 1 "470R" V 1286 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1400 3650 50  0001 C CNN
+F 3 "~" H 1400 3650 50  0001 C CNN
+F 4 "C17710" H 1400 3650 50  0001 C CNN "LCSC"
+	1    1400 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R17
+U 1 1 60350F1A
+P 1400 4400
+F 0 "R17" V 1195 4400 50  0000 C CNN
+F 1 "470R" V 1286 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1400 4400 50  0001 C CNN
+F 3 "~" H 1400 4400 50  0001 C CNN
+F 4 "C17710" H 1400 4400 50  0001 C CNN "LCSC"
+	1    1400 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R21
+U 1 1 60350F20
+P 1400 5150
+F 0 "R21" V 1195 5150 50  0000 C CNN
+F 1 "470R" V 1286 5150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1400 5150 50  0001 C CNN
+F 3 "~" H 1400 5150 50  0001 C CNN
+F 4 "C17710" H 1400 5150 50  0001 C CNN "LCSC"
+	1    1400 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R2
+U 1 1 6035A46E
+P 2400 1400
+F 0 "R2" V 2195 1400 50  0000 C CNN
+F 1 "470R" V 2286 1400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2400 1400 50  0001 C CNN
+F 3 "~" H 2400 1400 50  0001 C CNN
+F 4 "C17710" H 2400 1400 50  0001 C CNN "LCSC"
+	1    2400 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R6
+U 1 1 6035A474
+P 2400 2150
+F 0 "R6" V 2195 2150 50  0000 C CNN
+F 1 "470R" V 2286 2150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2400 2150 50  0001 C CNN
+F 3 "~" H 2400 2150 50  0001 C CNN
+F 4 "C17710" H 2400 2150 50  0001 C CNN "LCSC"
+	1    2400 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R10
+U 1 1 6035A47A
+P 2400 2900
+F 0 "R10" V 2195 2900 50  0000 C CNN
+F 1 "470R" V 2286 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2400 2900 50  0001 C CNN
+F 3 "~" H 2400 2900 50  0001 C CNN
+F 4 "C17710" H 2400 2900 50  0001 C CNN "LCSC"
+	1    2400 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R14
+U 1 1 6035A480
+P 2400 3650
+F 0 "R14" V 2195 3650 50  0000 C CNN
+F 1 "470R" V 2286 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2400 3650 50  0001 C CNN
+F 3 "~" H 2400 3650 50  0001 C CNN
+F 4 "C17710" H 2400 3650 50  0001 C CNN "LCSC"
+	1    2400 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R18
+U 1 1 6035A486
+P 2400 4400
+F 0 "R18" V 2195 4400 50  0000 C CNN
+F 1 "470R" V 2286 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2400 4400 50  0001 C CNN
+F 3 "~" H 2400 4400 50  0001 C CNN
+F 4 "C17710" H 2400 4400 50  0001 C CNN "LCSC"
+	1    2400 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R3
+U 1 1 60363738
+P 3400 1400
+F 0 "R3" V 3195 1400 50  0000 C CNN
+F 1 "470R" V 3286 1400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3400 1400 50  0001 C CNN
+F 3 "~" H 3400 1400 50  0001 C CNN
+F 4 "C17710" H 3400 1400 50  0001 C CNN "LCSC"
+	1    3400 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R7
+U 1 1 6036373E
+P 3400 2150
+F 0 "R7" V 3195 2150 50  0000 C CNN
+F 1 "470R" V 3286 2150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3400 2150 50  0001 C CNN
+F 3 "~" H 3400 2150 50  0001 C CNN
+F 4 "C17710" H 3400 2150 50  0001 C CNN "LCSC"
+	1    3400 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R11
+U 1 1 60363744
+P 3400 2900
+F 0 "R11" V 3195 2900 50  0000 C CNN
+F 1 "470R" V 3286 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3400 2900 50  0001 C CNN
+F 3 "~" H 3400 2900 50  0001 C CNN
+F 4 "C17710" H 3400 2900 50  0001 C CNN "LCSC"
+	1    3400 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R15
+U 1 1 6036374A
+P 3400 3650
+F 0 "R15" V 3195 3650 50  0000 C CNN
+F 1 "470R" V 3286 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3400 3650 50  0001 C CNN
+F 3 "~" H 3400 3650 50  0001 C CNN
+F 4 "C17710" H 3400 3650 50  0001 C CNN "LCSC"
+	1    3400 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R19
+U 1 1 60363750
+P 3400 4400
+F 0 "R19" V 3195 4400 50  0000 C CNN
+F 1 "470R" V 3286 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3400 4400 50  0001 C CNN
+F 3 "~" H 3400 4400 50  0001 C CNN
+F 4 "C17710" H 3400 4400 50  0001 C CNN "LCSC"
+	1    3400 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R22
+U 1 1 60363756
+P 3400 5150
+F 0 "R22" V 3195 5150 50  0000 C CNN
+F 1 "470R" V 3286 5150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3400 5150 50  0001 C CNN
+F 3 "~" H 3400 5150 50  0001 C CNN
+F 4 "C17710" H 3400 5150 50  0001 C CNN "LCSC"
+	1    3400 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R4
+U 1 1 6036B89C
+P 4400 1400
+F 0 "R4" V 4195 1400 50  0000 C CNN
+F 1 "470R" V 4286 1400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4400 1400 50  0001 C CNN
+F 3 "~" H 4400 1400 50  0001 C CNN
+F 4 "C17710" H 4400 1400 50  0001 C CNN "LCSC"
+	1    4400 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R8
+U 1 1 6036B8A2
+P 4400 2150
+F 0 "R8" V 4195 2150 50  0000 C CNN
+F 1 "470R" V 4286 2150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4400 2150 50  0001 C CNN
+F 3 "~" H 4400 2150 50  0001 C CNN
+F 4 "C17710" H 4400 2150 50  0001 C CNN "LCSC"
+	1    4400 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R12
+U 1 1 6036B8A8
+P 4400 2900
+F 0 "R12" V 4195 2900 50  0000 C CNN
+F 1 "470R" V 4286 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4400 2900 50  0001 C CNN
+F 3 "~" H 4400 2900 50  0001 C CNN
+F 4 "C17710" H 4400 2900 50  0001 C CNN "LCSC"
+	1    4400 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R20
+U 1 1 6036B8B4
+P 4400 4400
+F 0 "R20" V 4195 4400 50  0000 C CNN
+F 1 "470R" V 4286 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4400 4400 50  0001 C CNN
+F 3 "~" H 4400 4400 50  0001 C CNN
+F 4 "C17710" H 4400 4400 50  0001 C CNN "LCSC"
+	1    4400 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1650 2150 1500 2150
+Wire Wire Line
+	1650 2900 1500 2900
+Wire Wire Line
+	1650 3650 1500 3650
+Wire Wire Line
+	1650 5150 1500 5150
+Wire Wire Line
+	2650 4400 2500 4400
+Wire Wire Line
+	2650 3650 2500 3650
+Wire Wire Line
+	2650 2900 2500 2900
+Wire Wire Line
+	2650 2150 2500 2150
+Wire Wire Line
+	2650 1400 2500 1400
+Wire Wire Line
+	3650 1400 3500 1400
+Wire Wire Line
+	3650 2150 3500 2150
+Wire Wire Line
+	3650 2900 3500 2900
+Wire Wire Line
+	3650 3650 3500 3650
+Wire Wire Line
+	3650 4400 3500 4400
+Wire Wire Line
+	3650 5150 3500 5150
+Wire Wire Line
+	4650 4400 4500 4400
+Wire Wire Line
+	4650 2900 4500 2900
+Wire Wire Line
+	4650 1400 4500 1400
+Wire Wire Line
+	4650 2150 4500 2150
+Wire Wire Line
+	1300 1400 1300 2150
+Connection ~ 1300 2150
+Wire Wire Line
+	1300 2150 1300 2900
+Connection ~ 1300 2900
+Wire Wire Line
+	1300 2900 1300 3650
+Connection ~ 1300 3650
+Wire Wire Line
+	1300 3650 1300 4400
+Connection ~ 1300 4400
+Wire Wire Line
+	1300 4400 1300 5150
+Wire Wire Line
+	3300 5150 3300 4400
+Connection ~ 3300 2150
+Wire Wire Line
+	3300 2150 3300 1400
+Connection ~ 3300 2900
+Wire Wire Line
+	3300 2900 3300 2150
+Connection ~ 3300 3650
+Wire Wire Line
+	3300 3650 3300 2900
+Connection ~ 3300 4400
+Wire Wire Line
+	3300 4400 3300 3650
+Wire Wire Line
+	2300 1400 2300 2150
+Connection ~ 2300 2150
+Wire Wire Line
+	2300 2150 2300 2900
+Connection ~ 2300 2900
+Wire Wire Line
+	2300 2900 2300 3650
+Connection ~ 2300 3650
+Wire Wire Line
+	2300 3650 2300 4400
+Connection ~ 4300 2150
+Wire Wire Line
+	4300 2150 4300 1400
+Connection ~ 4300 2900
+Wire Wire Line
+	4300 2900 4300 2150
+Wire Wire Line
+	4600 1050 4600 1350
+Wire Wire Line
+	3600 1050 3600 1350
+Wire Wire Line
+	2600 1050 2600 1350
+Wire Wire Line
+	1600 1050 1600 1350
+Wire Wire Line
+	1300 1400 1300 1150
+Wire Wire Line
+	1300 1150 1100 1150
+Connection ~ 1300 1400
+Wire Wire Line
+	1300 1150 2300 1150
+Wire Wire Line
+	2300 1150 2300 1400
+Connection ~ 1300 1150
+Connection ~ 2300 1400
+Wire Wire Line
+	2300 1150 3300 1150
+Wire Wire Line
+	3300 1150 3300 1400
+Connection ~ 2300 1150
+Connection ~ 3300 1400
+Wire Wire Line
+	3300 1150 4300 1150
+Wire Wire Line
+	4300 1150 4300 1400
+Connection ~ 3300 1150
+Connection ~ 4300 1400
+Text GLabel 1100 1150 0    50   Input ~ 0
+LED_MATRIX
+Text GLabel 4950 2700 2    50   Output ~ 0
+row2
+Text GLabel 4950 5700 2    50   Output ~ 0
+row6
+Text GLabel 4950 4950 2    50   Output ~ 0
+row5
+Text GLabel 4950 4200 2    50   Output ~ 0
+row4
+Text GLabel 4950 3450 2    50   Output ~ 0
+row3
+Text GLabel 4950 1950 2    50   Output ~ 0
+row1
+Wire Wire Line
+	4400 1950 4950 1950
+Connection ~ 4400 1950
+Wire Wire Line
+	4950 2700 4400 2700
+Connection ~ 4400 2700
+Wire Wire Line
+	4400 3450 4950 3450
+Connection ~ 4400 3450
+Wire Wire Line
+	4950 4200 4400 4200
+Connection ~ 4400 4200
+Wire Wire Line
+	4950 4950 4400 4950
+Connection ~ 4400 4950
+Wire Wire Line
+	4950 5700 2400 5700
+Wire Wire Line
+	1750 1500 2750 1500
+Connection ~ 2750 1500
+Wire Wire Line
+	2750 1500 3750 1500
+Connection ~ 3750 1500
+Wire Wire Line
+	3750 1500 4750 1500
+Wire Wire Line
+	1800 2300 1800 2500
+Wire Wire Line
+	1750 2250 2750 2250
+Connection ~ 2750 2250
+Wire Wire Line
+	2750 2250 3750 2250
+Connection ~ 3750 2250
+Wire Wire Line
+	3750 2250 4750 2250
+Wire Wire Line
+	4750 3000 3750 3000
+Connection ~ 2750 3000
+Wire Wire Line
+	2750 3000 1750 3000
+Connection ~ 3750 3000
+Wire Wire Line
+	3750 3000 2750 3000
+Wire Wire Line
+	1750 3750 2750 3750
+Connection ~ 2750 3750
+Wire Wire Line
+	2750 3750 3750 3750
+Wire Wire Line
+	1750 4500 2750 4500
+Connection ~ 2750 4500
+Wire Wire Line
+	2750 4500 3750 4500
+Connection ~ 3750 4500
+Wire Wire Line
+	3750 4500 4750 4500
+Wire Wire Line
+	3750 5250 1750 5250
+Wire Wire Line
+	1650 4400 1500 4400
+Wire Wire Line
+	3750 5250 5500 5250
+Connection ~ 3750 5250
+Wire Wire Line
+	4750 4500 5500 4500
+Wire Wire Line
+	5500 4500 5500 5250
+Connection ~ 4750 4500
+Connection ~ 5500 5250
+Wire Wire Line
+	5500 4500 5500 3750
+Wire Wire Line
+	5500 3000 4750 3000
+Connection ~ 5500 4500
+Connection ~ 4750 3000
+Wire Wire Line
+	3750 3750 5500 3750
+Connection ~ 3750 3750
+Connection ~ 5500 3750
+Wire Wire Line
+	5500 3750 5500 3000
+Wire Wire Line
+	5500 3000 5500 2250
+Wire Wire Line
+	5500 2250 4750 2250
+Connection ~ 5500 3000
+Connection ~ 4750 2250
+Wire Wire Line
+	4750 1500 5500 1500
+Wire Wire Line
+	5500 1500 5500 2250
+Connection ~ 4750 1500
+Connection ~ 5500 2250
+Connection ~ 2150 6050
+Wire Wire Line
+	2650 6850 2650 6550
+Wire Wire Line
+	1850 6850 2650 6850
+Wire Wire Line
+	1750 6850 950  6850
+Wire Wire Line
+	1350 6750 2250 6750
+Connection ~ 1350 6750
+Connection ~ 1850 6450
+Wire Wire Line
+	1650 6450 1850 6450
+Wire Wire Line
+	2150 6150 2150 6050
+Wire Wire Line
+	1250 6050 1250 6150
+Connection ~ 1250 6050
+Wire Wire Line
+	1250 5950 1250 6050
+Wire Wire Line
+	1250 6050 2150 6050
+$Comp
+L LED:WS2813 D12
+U 1 1 5F314D76
+P 1350 6450
+F 0 "D12" H 1600 6300 50  0000 L CNN
+F 1 "WS2813" H 1400 6200 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 1400 6150 50  0001 L TNN
+F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 1450 6075 50  0001 L TNN
+F 4 "C194323" H 1350 6450 50  0001 C CNN "LCSC"
+	1    1350 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2813 D13
+U 1 1 5F78E5EA
+P 2250 6450
+F 0 "D13" H 2500 6300 50  0000 L CNN
+F 1 "WS2813" H 2300 6200 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 2300 6150 50  0001 L TNN
+F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 2350 6075 50  0001 L TNN
+F 4 "C194323" H 2250 6450 50  0001 C CNN "LCSC"
+	1    2250 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 6550 1050 6750
+Wire Wire Line
+	950  6350 950  6450
+Connection ~ 950  6450
+Wire Wire Line
+	950  6450 950  6850
+Wire Wire Line
+	950  6450 1050 6450
+Wire Wire Line
+	1950 6550 1750 6550
+Wire Wire Line
+	1750 6550 1750 6850
+Wire Wire Line
+	1850 6850 1850 6450
+Wire Wire Line
+	1850 6450 1950 6450
+$Comp
+L power:+5V #PWR03
+U 1 1 5F9C576E
+P 1250 5950
+F 0 "#PWR03" H 1250 5800 50  0001 C CNN
+F 1 "+5V" H 1265 6123 50  0000 C CNN
+F 2 "" H 1250 5950 50  0001 C CNN
+F 3 "" H 1250 5950 50  0001 C CNN
+	1    1250 5950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1350 6150
+NoConn ~ 2250 6150
+Text GLabel 950  6350 1    50   Input ~ 0
+BL_CONTROL
+Wire Wire Line
+	3050 6050 3050 6150
+Wire Wire Line
+	2150 6050 3050 6050
+NoConn ~ 3150 6150
+Wire Wire Line
+	3750 6450 3650 6450
+$Comp
+L LED:WS2813 D14
+U 1 1 60879569
+P 3150 6450
+F 0 "D14" H 3400 6300 50  0000 L CNN
+F 1 "WS2813" H 3200 6200 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 3200 6150 50  0001 L TNN
+F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 3250 6075 50  0001 L TNN
+F 4 "C194323" H 3150 6450 50  0001 C CNN "LCSC"
+	1    3150 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 6850 3550 6850
+Wire Wire Line
+	3550 6850 3550 6550
+Wire Wire Line
+	3050 6050 3950 6050
+Connection ~ 3050 6050
+Wire Wire Line
+	2250 6750 3150 6750
+Wire Wire Line
+	2550 6450 2750 6450
+Wire Wire Line
+	3950 6050 3950 6150
+NoConn ~ 4050 6150
+Wire Wire Line
+	4650 6450 4550 6450
+$Comp
+L LED:WS2813 D15
+U 1 1 6088D4F6
+P 4050 6450
+F 0 "D15" H 4300 6300 50  0000 L CNN
+F 1 "WS2813" H 4100 6200 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 4100 6150 50  0001 L TNN
+F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 4150 6075 50  0001 L TNN
+F 4 "C194323" H 4050 6450 50  0001 C CNN "LCSC"
+	1    4050 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 6850 4450 6850
+Wire Wire Line
+	4450 6850 4450 6550
+Wire Wire Line
+	4450 6550 4650 6550
+Wire Wire Line
+	3950 6050 4850 6050
+Connection ~ 3950 6050
+Wire Wire Line
+	3150 6750 4050 6750
+Wire Wire Line
+	2650 6550 2850 6550
+Wire Wire Line
+	2750 6450 2750 6850
+Connection ~ 2750 6450
+Wire Wire Line
+	2750 6450 2850 6450
+Wire Wire Line
+	3550 6550 3750 6550
+Wire Wire Line
+	3650 6450 3650 6850
+Connection ~ 3650 6450
+Wire Wire Line
+	3650 6450 3450 6450
+Wire Wire Line
+	4850 6050 4850 6150
+NoConn ~ 4950 6150
+$Comp
+L LED:WS2813 D16
+U 1 1 608AD957
+P 4950 6450
+F 0 "D16" H 5200 6300 50  0000 L CNN
+F 1 "WS2813" H 5000 6200 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 5000 6150 50  0001 L TNN
+F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 5050 6075 50  0001 L TNN
+F 4 "C194323" H 4950 6450 50  0001 C CNN "LCSC"
+	1    4950 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 6850 5350 6850
+Wire Wire Line
+	5350 6850 5350 6550
+Wire Wire Line
+	5350 6550 5550 6550
+Wire Wire Line
+	4850 6050 5750 6050
+Connection ~ 4850 6050
+Wire Wire Line
+	4050 6750 4950 6750
+Wire Wire Line
+	4550 6450 4550 6850
+Connection ~ 4550 6450
+Wire Wire Line
+	4550 6450 4350 6450
+Wire Wire Line
+	5750 6050 5750 6150
+NoConn ~ 5850 6150
+$Comp
+L LED:WS2813 D17
+U 1 1 608BA085
+P 5850 6450
+F 0 "D17" H 6100 6300 50  0000 L CNN
+F 1 "WS2813" H 5900 6200 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 5900 6150 50  0001 L TNN
+F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 5950 6075 50  0001 L TNN
+F 4 "C194323" H 5850 6450 50  0001 C CNN "LCSC"
+	1    5850 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 6750 5850 6750
+Wire Wire Line
+	5250 6450 5550 6450
+NoConn ~ 6150 6450
+Connection ~ 2250 6750
+Connection ~ 3150 6750
+Connection ~ 4050 6750
+Connection ~ 4950 6750
+Wire Wire Line
+	4300 2900 4300 4400
+$Comp
+L power:GND #PWR?
+U 1 1 5FA83D1D
+P 1050 7000
+F 0 "#PWR?" H 1050 6750 50  0001 C CNN
+F 1 "GND" H 1055 6827 50  0000 C CNN
+F 2 "" H 1050 7000 50  0001 C CNN
+F 3 "" H 1050 7000 50  0001 C CNN
+	1    1050 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 6750 1050 7000
+Connection ~ 1050 6750
+Wire Wire Line
+	1050 6750 1350 6750
 $EndSCHEMATC
